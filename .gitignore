@@ -1,0 +1,12 @@
+.DS_Store
+build/
+build-release/
+*.xcuserstate
+xcuserdata/
+*.xcresult/
+test-support/generated/
+evidence/*-attachments/
+evidence/permission-debug/
+evidence/current*.png
+evidence/dark-card-current.png
+evidence/settings-motion-debug.png
