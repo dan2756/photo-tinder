@@ -1,0 +1,21 @@
+Exported 3 attachments for: PhotoTinderUITests/testAppearanceAndLargeText():
+File: E4C58D0B-BCA2-423B-9608-B4E843DCAB62.png, suggested name: "appearance-review_0_AEEAB9DB-3287-45FB-91CF-D7FAB1943A1B.png"
+File: 498018D5-A33A-4320-8C2F-AC4367926A00.png, suggested name: "appearance-swipe_0_0F6B1444-B309-4C36-921D-BB144021F33B.png"
+File: ECF8C53B-0881-424D-BCFA-C10B4BEE8D77.png, suggested name: "appearance-clean_0_95FA3DCA-BE8B-4FCA-8560-3E1AE5CFB4EC.png"
+
+Skipped export for PhotoTinderUITests/testCancelledAndVerticalDragsKeepProgress(): no matching attachments
+
+Exported 1 attachment for: PhotoTinderUITests/testImageZoomAndEmptyCategoryPreservesSession():
+File: 031F88E1-5643-4D9E-90A5-9C15E4335F05.png, suggested name: "zoomed-image_0_E7AC19BC-5F1E-4402-A5A4-BDD431FCBD36.png"
+
+Exported 2 attachments for: PhotoTinderUITests/testPermissionLimited():
+File: 6588E8BB-9728-4F05-B259-AD1EFE1E96AB.png, suggested name: "permission-limited_0_15E612BF-2512-41EC-995F-E0871248AA47.png"
+File: 556E567C-0645-4F7D-9952-62E887A72BCC.png, suggested name: "limited-picker_0_23020483-38AA-46DA-838F-9D553C0B9720.png"
+
+Exported 1 attachment for: PhotoTinderUITests/testQueueClearAndDeletionCancel():
+File: B9D92EF4-7A09-4472-B377-09C864F184BF.png, suggested name: "delete-cancelled_0_261A3426-AA16-4F1B-A1F1-DEED2776F29A.png"
+
+Exported 1 attachment for: PhotoTinderUITests/testRapidConsecutiveSwipes():
+File: 37833018-3016-4E83-87ED-D8130828C1AA.png, suggested name: "rapid-swipes-restored_0_50D2E0FD-F204-4FFD-A026-F4F516C9834F.png"
+
+Generated manifest file with attachment details: /Users/djoshea/Desktop/projects/photo-tinder/evidence/ui-refinements-attachments/manifest.json

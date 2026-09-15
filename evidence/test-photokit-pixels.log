@@ -1,0 +1,46 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PhotoTinder.xcodeproj -scheme PhotoTinder -destination "platform=iOS Simulator,id=34C20ACC-6657-467B-BAF1-CF34097AE244" -parallel-testing-enabled NO -derivedDataPath build -resultBundlePath evidence/photokit-pixels.xcresult test-without-building "-only-testing:PhotoTinderTests/PhotoKitIntegrationTests" CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/photokit-pixels.xcresult
+
+Test Suite 'Selected tests' started at 2026-09-14 12:53:32.055.
+Test Suite 'PhotoTinderTests.xctest' started at 2026-09-14 12:53:32.056.
+Test Suite 'PhotoKitIntegrationTests' started at 2026-09-14 12:53:32.056.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testCardSizedPhotoContainsRealPixels]' started.
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/PhotoKitIntegrationTests.swift:19: -[PhotoTinderTests.PhotoKitIntegrationTests testCardSizedPhotoContainsRealPixels] : Test skipped - Grant full Photos access through the app's UI before running the seeded-library checks.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testCardSizedPhotoContainsRealPixels]' skipped (0.004 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testImportedCaptureDatesLocationsAndVideoDuration]' started.
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/PhotoKitIntegrationTests.swift:19: -[PhotoTinderTests.PhotoKitIntegrationTests testImportedCaptureDatesLocationsAndVideoDuration] : Test skipped - Grant full Photos access through the app's UI before running the seeded-library checks.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testImportedCaptureDatesLocationsAndVideoDuration]' skipped (0.001 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealPhotoLoadsAndCanBeCancelled]' started.
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/PhotoKitIntegrationTests.swift:19: -[PhotoTinderTests.PhotoKitIntegrationTests testRealPhotoLoadsAndCanBeCancelled] : Test skipped - Grant full Photos access through the app's UI before running the seeded-library checks.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealPhotoLoadsAndCanBeCancelled]' skipped (0.001 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealVideoLoadsPlaysMutesAndPauses]' started.
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/PhotoKitIntegrationTests.swift:19: -[PhotoTinderTests.PhotoKitIntegrationTests testRealVideoLoadsPlaysMutesAndPauses] : Test skipped - Grant full Photos access through the app's UI before running the seeded-library checks.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealVideoLoadsPlaysMutesAndPauses]' skipped (0.002 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testShuffleCombinesRealPhotosAndVideoWithoutDuplicates]' started.
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/PhotoKitIntegrationTests.swift:19: -[PhotoTinderTests.PhotoKitIntegrationTests testShuffleCombinesRealPhotosAndVideoWithoutDuplicates] : Test skipped - Grant full Photos access through the app's UI before running the seeded-library checks.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testShuffleCombinesRealPhotosAndVideoWithoutDuplicates]' skipped (0.001 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testSmartCategoriesUseActualPhotoKitClassification]' started.
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/PhotoKitIntegrationTests.swift:19: -[PhotoTinderTests.PhotoKitIntegrationTests testSmartCategoriesUseActualPhotoKitClassification] : Test skipped - Grant full Photos access through the app's UI before running the seeded-library checks.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testSmartCategoriesUseActualPhotoKitClassification]' skipped (0.002 seconds).
+Test Suite 'PhotoKitIntegrationTests' passed at 2026-09-14 12:53:32.068.
+	 Executed 6 tests, with 6 tests skipped and 0 failures (0 unexpected) in 0.011 (0.013) seconds
+Test Suite 'PhotoTinderTests.xctest' passed at 2026-09-14 12:53:32.068.
+	 Executed 6 tests, with 6 tests skipped and 0 failures (0 unexpected) in 0.011 (0.013) seconds
+Test Suite 'Selected tests' passed at 2026-09-14 12:53:32.068.
+	 Executed 6 tests, with 6 tests skipped and 0 failures (0 unexpected) in 0.011 (0.013) seconds
+2026-09-14 12:53:32.345 xcodebuild[36832:3322551] [MT] IDETestOperationsObserverDebug: 1.667 elapsed -- Testing started completed.
+2026-09-14 12:53:32.345 xcodebuild[36832:3322551] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-09-14 12:53:32.345 xcodebuild[36832:3322551] [MT] IDETestOperationsObserverDebug: 1.667 sec, +1.667 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/photokit-pixels.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+
+Testing started

@@ -1,0 +1,74 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PhotoTinder.xcodeproj -scheme PhotoTinder -destination "platform=iOS Simulator,id=34C20ACC-6657-467B-BAF1-CF34097AE244" -parallel-testing-enabled NO -derivedDataPath build -resultBundlePath evidence/full-before-integration.xcresult test-without-building "-only-testing:PhotoTinderUITests/PhotoTinderUITests/testPermissionFull" CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/full-before-integration.xcresult
+
+2026-09-14 12:53:58.294852-0400 PhotoTinderUITests-Runner[37257:3324893] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-09-14 12:53:58.753.
+Test Suite 'PhotoTinderUITests.xctest' started at 2026-09-14 12:53:58.754.
+Test Suite 'PhotoTinderUITests' started at 2026-09-14 12:53:58.754.
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testPermissionFull]' started.
+    t =     0.00s Start Test at 2026-09-14 12:53:58.755
+    t =     0.01s Set Up
+    t =     0.02s Open org.local.PhotoTinder
+    t =     0.02s     Launch org.local.PhotoTinder
+2026-09-14 12:53:58.806 xcodebuild[37239:3324563] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:53:58.806 xcodebuild[37239:3324563] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     0.46s         Setting up automation session
+objc[37257]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x10a4dc310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x109d48398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =     1.06s         Wait for org.local.PhotoTinder to idle
+    t =     2.40s Waiting 10.0s for "requestAccess" Button to exist
+    t =     3.44s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     3.44s         Checking existence of `"requestAccess" Button`
+    t =     3.49s Tap "requestAccess" Button
+    t =     3.49s     Wait for org.local.PhotoTinder to idle
+    t =     3.49s     Find the "requestAccess" Button
+    t =     3.51s     Check for interrupting elements affecting "requestAccess" Button
+    t =     3.52s     Synthesize event
+    t =     3.81s     Wait for org.local.PhotoTinder to idle
+    t =     3.82s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     4.85s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     4.85s         Checking existence of `"Allow Full Access" Button`
+    t =     4.88s Tap "Allow Full Access" Button
+    t =     4.88s     Wait for com.apple.springboard to idle
+    t =     4.88s     Find the "Allow Full Access" Button
+    t =     4.91s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     4.93s     Synthesize event
+    t =     5.22s     Wait for com.apple.springboard to idle
+    t =     5.44s Waiting 10.0s for "shuffle" Button to exist
+    t =     6.47s     Checking `Expect predicate `existsNoRetry == 1` for object "shuffle" Button`
+    t =     6.47s         Checking existence of `"shuffle" Button`
+    t =     6.52s Tap "settings" Button
+    t =     6.52s     Wait for org.local.PhotoTinder to idle
+    t =     6.52s     Find the "settings" Button
+    t =     6.55s     Check for interrupting elements affecting "settings" Button
+    t =     6.57s     Synthesize event
+    t =     6.86s     Wait for org.local.PhotoTinder to idle
+    t =     7.69s Waiting 5.0s for "Photo Access, Full Access" StaticText to exist
+    t =     8.73s     Checking `Expect predicate `existsNoRetry == 1` for object "Photo Access, Full Access" StaticText`
+    t =     8.73s         Checking existence of `"Photo Access, Full Access" StaticText`
+    t =     8.79s Find the Target Application 'org.local.PhotoTinder'
+    t =     8.88s Added attachment named 'permission-full'
+    t =     8.88s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testPermissionFull]' passed (9.120 seconds).
+Test Suite 'PhotoTinderUITests' passed at 2026-09-14 12:54:07.875.
+	 Executed 1 test, with 0 failures (0 unexpected) in 9.120 (9.122) seconds
+Test Suite 'PhotoTinderUITests.xctest' passed at 2026-09-14 12:54:07.876.
+	 Executed 1 test, with 0 failures (0 unexpected) in 9.120 (9.123) seconds
+Test Suite 'Selected tests' passed at 2026-09-14 12:54:07.877.
+	 Executed 1 test, with 0 failures (0 unexpected) in 9.120 (9.124) seconds
+2026-09-14 12:54:08.165 xcodebuild[37239:3324563] [MT] IDETestOperationsObserverDebug: 10.754 elapsed -- Testing started completed.
+2026-09-14 12:54:08.165 xcodebuild[37239:3324563] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-09-14 12:54:08.165 xcodebuild[37239:3324563] [MT] IDETestOperationsObserverDebug: 10.754 sec, +10.754 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/full-before-integration.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+
+Testing started

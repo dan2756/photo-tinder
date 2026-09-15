@@ -1,0 +1,46 @@
+Exported 1 attachment for: PhotoTinderUITests/testActualSelectedDeletion():
+File: 6609CD08-1BD7-4B97-A1A8-D76E41803B39.png, suggested name: "deleted-one-item_0_22CBC503-F499-4369-88D3-4AB5CE9F0130.png"
+
+Exported 3 attachments for: PhotoTinderUITests/testCoreSwipeUndoSkipAndResume():
+File: 8CD2AEF7-30B6-4644-8891-E535C5D63C6C.png, suggested name: "review_0_6E5619D1-621D-4569-A5FB-236F35033652.png"
+File: C48FEA0F-263B-439D-BB53-9BDF2519C729.png, suggested name: "swipe_0_5145C660-10D4-4D97-9A13-CD5E03DC9E3F.png"
+File: 232214C7-55EC-4E9C-8C43-FA75E6D62800.png, suggested name: "clean_0_0ABECF0E-C958-44E2-8968-FA375DFACAC2.png"
+
+Skipped export for PhotoTinderUITests/testDeletionFailurePreservesQueue(): no matching attachments
+
+Exported 2 attachments for: PhotoTinderUITests/testInspectionAndVideo():
+File: 5857BD15-C544-43AD-A743-B0580FE8DDDA.png, suggested name: "video-inspection_0_387D52C4-ACFF-497E-A575-FC34FFF06ECF.png"
+File: BE744457-BB68-41DC-AE46-37CB45505A5C.txt, suggested name: "Complete Issue Description.txt"
+
+Exported 1 attachment for: PhotoTinderUITests/testPermissionDenied():
+File: 9A24C73E-EA6C-4039-B1EF-C57555267A86.png, suggested name: "permission-denied_0_F5541EE3-96AB-4766-8177-39D4ADCCBF69.png"
+
+Exported 1 attachment for: PhotoTinderUITests/testPermissionFull():
+File: BA76344E-1488-4CAC-969C-3EB7F2E56B71.png, suggested name: "permission-full_0_EF829A72-8C84-4219-897D-6BA19B975079.png"
+
+Exported 4 attachments for: PhotoTinderUITests/testPermissionLimited():
+File: CB07D444-D1CB-41C2-A98F-9A471E210D2C.png, suggested name: "limited-picker_0_903A79C5-8864-427E-ACD4-A40865B8051C.png"
+File: 1B2AEDCA-4811-4648-BA0B-0747F85542A0, suggested name: "Synthesized Event 2026-09-14 at 12.46.54 PM"
+File: A7E94CF6-FC93-4080-884C-C2B2B23A02B2, suggested name: "Synthesized Event 2026-09-14 at 12.46.53 PM"
+File: C6D1E39D-BDBC-4300-88B3-B96A38C8017F.mp4, suggested name: "Screen Recording 2026-09-14 at 12.46.48 PM.mp4"
+
+Exported 14 attachments for: PhotoTinderUITests/testQueueClearAndDeletionCancel():
+File: 975DCCDA-82F1-4D6A-A1A4-0E773B99A8C2, suggested name: "Synthesized Event 2026-09-14 at 12.47.16 PM"
+File: 6E16D182-68CB-468A-912B-F69B23DE0672, suggested name: "Synthesized Event 2026-09-14 at 12.47.16 PM"
+File: BBF43D7F-D18A-476D-A2F4-71C0B2963551, suggested name: "Synthesized Event 2026-09-14 at 12.47.13 PM"
+File: A60E71A5-D8A8-4F18-A300-7954E60CE6EA, suggested name: "Synthesized Event 2026-09-14 at 12.47.12 PM"
+File: 5243D090-D4A7-40C4-954A-6C5C5AFBA8E5, suggested name: "Synthesized Event 2026-09-14 at 12.47.11 PM"
+File: 376ECB8F-4787-45E0-A107-2BDBFBFCA135, suggested name: "Synthesized Event 2026-09-14 at 12.47.09 PM"
+File: E0AF2CF3-A430-4479-83EF-A07379F6B6B0, suggested name: "Synthesized Event 2026-09-14 at 12.47.07 PM"
+File: 4DA84FAC-8C84-4B91-B04D-C5F398C97FF9, suggested name: "Synthesized Event 2026-09-14 at 12.47.05 PM"
+File: CBC7E549-D006-4EEB-A38E-F0C2EF4557BA, suggested name: "Synthesized Event 2026-09-14 at 12.47.03 PM"
+File: 8F0E5EEA-9EE4-4E7A-A541-170BD14B62FB, suggested name: "Synthesized Event 2026-09-14 at 12.47.02 PM"
+File: 9E90A3D4-7360-480D-8267-C0A531858862.mp4, suggested name: "Screen Recording 2026-09-14 at 12.46.57 PM.mp4"
+File: 2A374F9C-E3EA-4370-9B43-15545E6E8894.txt, suggested name: "Complete Issue Description.txt"
+File: AF822658-8C7E-4A77-B6E6-77727B928A22.txt, suggested name: "App UI hierarchy for org.local_0_A2E2CAE8-62AF-4981-8031-31C12832C713.PhotoTinder"
+File: 7B280AEE-484A-4D93-ACE6-20A893987378, suggested name: "UI Snapshot 2026-09-14 at 12.47.19 PM"
+
+Exported 1 attachment for: PhotoTinderUITests/testRapidButtonsAndAccessibleAlternatives():
+File: 08320493-60AE-4BA1-91DA-96E76D515C1B.png, suggested name: "accessible-controls_0_B89321CF-61BD-4BD9-9696-7D865E378FDE.png"
+
+Generated manifest file with attachment details: /Users/djoshea/Desktop/projects/photo-tinder/evidence/core-ui-attachments/manifest.json

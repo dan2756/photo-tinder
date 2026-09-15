@@ -1,0 +1,59 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PhotoTinder.xcodeproj -scheme PhotoTinder -destination "platform=iOS Simulator,id=34C20ACC-6657-467B-BAF1-CF34097AE244" -parallel-testing-enabled NO -derivedDataPath build -resultBundlePath evidence/photokit-authorized.xcresult test-without-building "-only-testing:PhotoTinderTests/PhotoKitIntegrationTests" CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/photokit-authorized.xcresult
+
+Test Suite 'Selected tests' started at 2026-09-14 12:54:18.820.
+Test Suite 'PhotoTinderTests.xctest' started at 2026-09-14 12:54:18.820.
+Test Suite 'PhotoKitIntegrationTests' started at 2026-09-14 12:54:18.820.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testCardSizedPhotoContainsRealPixels]' started.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testCardSizedPhotoContainsRealPixels]' passed (0.138 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testImportedCaptureDatesLocationsAndVideoDuration]' started.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testImportedCaptureDatesLocationsAndVideoDuration]' passed (0.033 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealPhotoLoadsAndCanBeCancelled]' started.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealPhotoLoadsAndCanBeCancelled]' passed (0.036 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealVideoLoadsPlaysMutesAndPauses]' started.
+2026-09-14 12:54:19.153265-0400 PhotoTinder[37447:3326882] [plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x106c02040> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-09-14 12:54:19.216290-0400 PhotoTinder[37447:3326936] [AQ]        LoudnessManager.mm:1755  ReadPListFile: unable to open stream for LoudnessManager plist
+2026-09-14 12:54:19.216376-0400 PhotoTinder[37447:3326936] [AQ]        LoudnessManager.mm:1261  GetHardwarePlatformKey: cannot get acoustic ID
+2026-09-14 12:54:19.216440-0400 PhotoTinder[37447:3326936] [AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 12:54:19.216495-0400 PhotoTinder[37447:3326936] [AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 12:54:19.218373-0400 PhotoTinder[37447:3326936] [AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 12:54:19.218444-0400 PhotoTinder[37447:3326936] [AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealVideoLoadsPlaysMutesAndPauses]' passed (0.372 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testShuffleCombinesRealPhotosAndVideoWithoutDuplicates]' started.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testShuffleCombinesRealPhotosAndVideoWithoutDuplicates]' passed (0.036 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testSmartCategoriesUseActualPhotoKitClassification]' started.
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/PhotoKitIntegrationTests.swift:50: error: -[PhotoTinderTests.PhotoKitIntegrationTests testSmartCategoriesUseActualPhotoKitClassification] : XCTUnwrap failed: expected non-nil value of type "ImportedFixture"
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testSmartCategoriesUseActualPhotoKitClassification]' failed (0.069 seconds).
+2026-09-14 12:54:19.505712-0400 PhotoTinder[37447:3326608] [Default] Flushing outgoing messages to the IDE with timeout 600.00s
+2026-09-14 12:54:19.505847-0400 PhotoTinder[37447:3326874] [Default] Received confirmation that IDE processed remaining outgoing messages
+
+Restarting after unexpected exit, crash, or test timeout; summary will include totals from previous launches.
+
+Test Suite 'Selected tests' started at 2026-09-14 12:54:20.456.
+Test Suite 'PhotoTinderTests.xctest' started at 2026-09-14 12:54:20.456.
+Test Suite 'PhotoKitIntegrationTests' started at 2026-09-14 12:54:20.456.
+Test Suite 'PhotoKitIntegrationTests' passed at 2026-09-14 12:54:20.456.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+Test Suite 'PhotoTinderTests.xctest' passed at 2026-09-14 12:54:20.456.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+Test Suite 'Selected tests' passed at 2026-09-14 12:54:20.457.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+2026-09-14 12:54:28.441 xcodebuild[37416:3326214] [MT] IDETestOperationsObserverDebug: 11.082 elapsed -- Testing started completed.
+2026-09-14 12:54:28.441 xcodebuild[37416:3326214] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-09-14 12:54:28.441 xcodebuild[37416:3326214] [MT] IDETestOperationsObserverDebug: 11.082 sec, +11.082 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/photokit-authorized.xcresult
+
+Failing tests:
+	PhotoKitIntegrationTests.testSmartCategoriesUseActualPhotoKitClassification()
+
+** TEST EXECUTE FAILED **
+
+Testing started

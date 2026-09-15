@@ -1,0 +1,130 @@
+[
+  {
+    "captureDate" : "2026-09-13T16:35:28Z",
+    "filename" : "01-disposable-alpine-morning.jpg",
+    "height" : 1440,
+    "kind" : "synthetic scenic drawing",
+    "latitude" : 46.58,
+    "longitude" : 7.96,
+    "title" : "Alpine morning",
+    "width" : 1080
+  },
+  {
+    "captureDate" : "2026-09-10T16:35:28Z",
+    "filename" : "02-disposable-rose-dusk.jpg",
+    "height" : 1440,
+    "kind" : "synthetic scenic drawing",
+    "latitude" : 36.24,
+    "longitude" : -116.82,
+    "title" : "Rose dusk",
+    "width" : 1080
+  },
+  {
+    "captureDate" : "2026-09-07T16:35:28Z",
+    "filename" : "03-disposable-blue-ridge.jpg",
+    "height" : 960,
+    "kind" : "synthetic scenic drawing",
+    "title" : "Blue ridge",
+    "width" : 1440
+  },
+  {
+    "captureDate" : "2026-09-04T16:35:28Z",
+    "filename" : "04-disposable-desert-light.jpg",
+    "height" : 1440,
+    "kind" : "synthetic scenic drawing",
+    "latitude" : 46.58,
+    "longitude" : 7.96,
+    "title" : "Desert light",
+    "width" : 1080
+  },
+  {
+    "captureDate" : "2026-09-01T16:35:28Z",
+    "filename" : "05-disposable-after-the-rain.jpg",
+    "height" : 1440,
+    "kind" : "synthetic scenic drawing",
+    "latitude" : 36.24,
+    "longitude" : -116.82,
+    "title" : "After the rain",
+    "width" : 1080
+  },
+  {
+    "captureDate" : "2026-08-29T16:35:28Z",
+    "filename" : "06-disposable-forest-stillness.jpg",
+    "height" : 1440,
+    "kind" : "synthetic scenic drawing",
+    "title" : "Forest stillness",
+    "width" : 1080
+  },
+  {
+    "captureDate" : "2026-08-26T16:35:28Z",
+    "filename" : "07-disposable-across-the-lake.jpg",
+    "height" : 720,
+    "kind" : "synthetic scenic drawing",
+    "latitude" : 46.58,
+    "longitude" : 7.96,
+    "title" : "Across the lake",
+    "width" : 1800
+  },
+  {
+    "captureDate" : "2026-08-23T16:35:28Z",
+    "filename" : "08-disposable-last-light.jpg",
+    "height" : 1440,
+    "kind" : "synthetic scenic drawing",
+    "latitude" : 36.24,
+    "longitude" : -116.82,
+    "title" : "Last light",
+    "width" : 1080
+  },
+  {
+    "captureDate" : "2025-04-24T16:35:28Z",
+    "filename" : "09-disposable-mountain-air.jpg",
+    "height" : 960,
+    "kind" : "synthetic scenic drawing",
+    "title" : "Mountain air",
+    "width" : 1440
+  },
+  {
+    "captureDate" : "2025-04-23T16:35:28Z",
+    "filename" : "10-disposable-warm-sand.jpg",
+    "height" : 1440,
+    "kind" : "synthetic scenic drawing",
+    "latitude" : 46.58,
+    "longitude" : 7.96,
+    "title" : "Warm sand",
+    "width" : 1080
+  },
+  {
+    "captureDate" : "2025-04-22T16:35:28Z",
+    "filename" : "11-disposable-blue-hour.jpg",
+    "height" : 1440,
+    "kind" : "synthetic scenic drawing",
+    "latitude" : 36.24,
+    "longitude" : -116.82,
+    "title" : "Blue hour",
+    "width" : 1080
+  },
+  {
+    "captureDate" : "2025-04-21T16:35:28Z",
+    "filename" : "12-disposable-a-quiet-shore.jpg",
+    "height" : 1440,
+    "kind" : "synthetic scenic drawing",
+    "title" : "A quiet shore",
+    "width" : 1080
+  },
+  {
+    "captureDate" : "2026-09-14T16:35:28Z",
+    "filename" : "13-disposable-screen-like.png",
+    "height" : 2532,
+    "kind" : "screenshot-like graphic, not a PhotoKit screenshot subtype",
+    "title" : "Field notes",
+    "width" : 1170
+  },
+  {
+    "captureDate" : "2026-09-14T16:35:28Z",
+    "filename" : "14-disposable-moving-water.mov",
+    "height" : 1080,
+    "kind" : "playable synthetic video with low-volume tone",
+    "title" : "Moving water",
+    "width" : 720
+  }
+]

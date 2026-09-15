@@ -1,0 +1,164 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PhotoTinder.xcodeproj -scheme PhotoTinder -destination "platform=iOS Simulator,id=34C20ACC-6657-467B-BAF1-CF34097AE244" -parallel-testing-enabled NO -derivedDataPath build -resultBundlePath evidence/final-domain-photokit.xcresult test-without-building "-only-testing:PhotoTinderTests" CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/final-domain-photokit.xcresult
+
+Test Suite 'All tests' started at 2026-09-14 13:17:40.671.
+Test Suite 'PhotoTinderTests.xctest' started at 2026-09-14 13:17:40.671.
+Test Suite 'PhotoKitIntegrationTests' started at 2026-09-14 13:17:40.671.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testCardSizedPhotoContainsRealPixels]' started.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testCardSizedPhotoContainsRealPixels]' passed (0.122 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testImportedCaptureDatesLocationsAndVideoDuration]' started.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testImportedCaptureDatesLocationsAndVideoDuration]' passed (0.029 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealPhotoLoadsAndCanBeCancelled]' started.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealPhotoLoadsAndCanBeCancelled]' passed (0.033 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealVideoLoadsPlaysMutesAndPauses]' started.
+2026-09-14 13:17:40.971102-0400 PhotoTinder[45506:3435561] [plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x1159eaee0> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-09-14 13:17:41.034064-0400 PhotoTinder[45506:3435625] [AQ]        LoudnessManager.mm:1755  ReadPListFile: unable to open stream for LoudnessManager plist
+2026-09-14 13:17:41.034142-0400 PhotoTinder[45506:3435625] [AQ]        LoudnessManager.mm:1261  GetHardwarePlatformKey: cannot get acoustic ID
+2026-09-14 13:17:41.034192-0400 PhotoTinder[45506:3435625] [AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:41.034252-0400 PhotoTinder[45506:3435625] [AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:41.035957-0400 PhotoTinder[45506:3435625] [AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:41.036024-0400 PhotoTinder[45506:3435625] [AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testRealVideoLoadsPlaysMutesAndPauses]' passed (0.361 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testShuffleCombinesRealPhotosAndVideoWithoutDuplicates]' started.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testShuffleCombinesRealPhotosAndVideoWithoutDuplicates]' passed (0.036 seconds).
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testSmartCategoriesUseActualPhotoKitClassification]' started.
+Test Case '-[PhotoTinderTests.PhotoKitIntegrationTests testSmartCategoriesUseActualPhotoKitClassification]' passed (0.032 seconds).
+Test Suite 'PhotoKitIntegrationTests' passed at 2026-09-14 13:17:41.287.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.614 (0.616) seconds
+Test Suite 'PhotoTinderTests.xctest' passed at 2026-09-14 13:17:41.287.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.614 (0.616) seconds
+Test Suite 'All tests' passed at 2026-09-14 13:17:41.288.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.614 (0.617) seconds
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64-apple-ios13.0-simulator
+◇ Suite AppModelTests started.
+◇ Test "Successful deletion records exactly the returned IDs and saves the remaining queue" started.
+✔ Test "Successful deletion records exactly the returned IDs and saves the remaining queue" passed after 0.007 seconds.
+◇ Test "Failed or cancelled deletion preserves decisions, session undo, and deletion history" started.
+◇ Test case passing 1 argument failure → .failed to "Failed or cancelled deletion preserves decisions, session undo, and deletion history" started.
+​◇ Test case passing 1 argument failure → .cancelled to "Failed or cancelled deletion preserves decisions, session undo, and deletion history" started.
+​✔ Test "Failed or cancelled deletion preserves decisions, session undo, and deletion history" with 2 test cases passed after 0.005 seconds.
+◇ Test "A queued save failure stops deletion before the library operation" started.
+✔ Test "A queued save failure stops deletion before the library operation" passed after 0.002 seconds.
+◇ Test "Reset publishes only after its replacement store succeeds" started.
+✔ Test "Reset publishes only after its replacement store succeeds" passed after 0.001 seconds.
+◇ Test "A failed reset preserves the live queue and undo history" started.
+✔ Test "A failed reset preserves the live queue and undo history" passed after 0.001 seconds.
+◇ Test "Successful deletion retains its result and a subsequent save failure warning" started.
+✔ Test "Successful deletion retains its result and a subsequent save failure warning" passed after 0.006 seconds.
+◇ Test "An in-flight deletion excludes another deletion, reset, and review mutations" started.
+✔ Test "An in-flight deletion excludes another deletion, reset, and review mutations" passed after 0.001 seconds.
+◇ Test "An empty category or already-reviewed selection preserves the saved session" started.
+✔ Test "An empty category or already-reviewed selection preserves the saved session" passed after 0.001 seconds.
+✔ Suite AppModelTests passed after 0.025 seconds.
+◇ Suite MediaCategoryTests started.
+◇ Test "Categories use actual metadata" started.
+◇ Test case passing 2 arguments category → .screenshots, expected → "screenshot" to "Categories use actual metadata" started.
+​◇ Test case passing 2 arguments category → .videos, expected → "video" to "Categories use actual metadata" started.
+​◇ Test case passing 2 arguments category → .selfies, expected → "selfie" to "Categories use actual metadata" started.
+​◇ Test case passing 2 arguments category → .places, expected → "located" to "Categories use actual metadata" started.
+​◇ Test case passing 2 arguments category → .livePhotos, expected → "live" to "Categories use actual metadata" started.
+​✔ Test "Categories use actual metadata" with 5 test cases passed after 0.001 seconds.
+◇ Test "Recent uses capture time, includes its boundary, and excludes future or missing dates" started.
+✔ Test "Recent uses capture time, includes its boundary, and excludes future or missing dates" passed after 0.001 seconds.
+◇ Test "Older means strictly more than one calendar year" started.
+✔ Test "Older means strictly more than one calendar year" passed after 0.001 seconds.
+◇ Test "The all-media category mixes photos, videos, and single Live Photo assets" started.
+✔ Test "The all-media category mixes photos, videos, and single Live Photo assets" passed after 0.001 seconds.
+◇ Test "Places group saved coordinates and do not invent names or include invalid locations" started.
+✔ Test "Places group saved coordinates and do not invent names or include invalid locations" passed after 0.001 seconds.
+◇ Test "Video duration formatting" started.
+◇ Test case passing 2 arguments seconds → 0.0, expected → "0:00" to "Video duration formatting" started.
+​◇ Test case passing 2 arguments seconds → 9.9, expected → "0:09" to "Video duration formatting" started.
+​◇ Test case passing 2 arguments seconds → 65.0, expected → "1:05" to "Video duration formatting" started.
+​◇ Test case passing 2 arguments seconds → 3661.0, expected → "1:01:01" to "Video duration formatting" started.
+​✔ Test "Video duration formatting" with 4 test cases passed after 0.001 seconds.
+✔ Suite MediaCategoryTests passed after 0.002 seconds.
+◇ Suite MediaLoaderTests started.
+◇ Test "Image requests limit decoded pixels and retain portrait or panorama proportions" started.
+◇ Test case passing 3 arguments kind → .thumbnail, requested → (1200.0, 1800.0), expected → (240.0, 360.0) to "Image requests limit decoded pixels and retain portrait or panorama proportions" started.
+​◇ Test case passing 3 arguments kind → .card, requested → (12000.0, 3000.0), expected → (1600.0, 400.0) to "Image requests limit decoded pixels and retain portrait or panorama proportions" started.
+​◇ Test case passing 3 arguments kind → .card, requested → (1200.0, 1600.0), expected → (1200.0, 1600.0) to "Image requests limit decoded pixels and retain portrait or panorama proportions" started.
+​◇ Test case passing 3 arguments kind → .inspection, requested → (4800.0, 6000.0), expected → (2400.0, 3000.0) to "Image requests limit decoded pixels and retain portrait or panorama proportions" started.
+​◇ Test case passing 3 arguments kind → .inspection, requested → (80.0, 60.0), expected → (80.0, 60.0) to "Image requests limit decoded pixels and retain portrait or panorama proportions" started.
+​✔ Test "Image requests limit decoded pixels and retain portrait or panorama proportions" with 5 test cases passed after 0.004 seconds.
+◇ Test "Transient invalid layout geometry cannot request a zero or unbounded bitmap" started.
+◇ Test case passing 1 argument requested → (0.0, 0.0) to "Transient invalid layout geometry cannot request a zero or unbounded bitmap" started.
+​◇ Test case passing 1 argument requested → (-20.0, -100.0) to "Transient invalid layout geometry cannot request a zero or unbounded bitmap" started.
+​◇ Test case passing 1 argument requested → (inf, nan) to "Transient invalid layout geometry cannot request a zero or unbounded bitmap" started.
+​◇ Test case passing 1 argument requested → (1.7976931348623157e+308, 1.0) to "Transient invalid layout geometry cannot request a zero or unbounded bitmap" started.
+​◇ Test case passing 1 argument requested → (1.0, 1.7976931348623157e+308) to "Transient invalid layout geometry cannot request a zero or unbounded bitmap" started.
+​✔ Test "Transient invalid layout geometry cannot request a zero or unbounded bitmap" with 5 test cases passed after 0.006 seconds.
+◇ Test "Cancelling a scheduled load immediately clears its loading and playback state" started.
+✔ Test "Cancelling a scheduled load immediately clears its loading and playback state" passed after 0.001 seconds.
+✔ Suite MediaLoaderTests passed after 0.010 seconds.
+◇ Suite ReviewStateTests started.
+◇ Test "Buttons and swipes produce one decision for the current asset" started.
+◇ Test case passing 2 arguments action → .keep, expected → .kept to "Buttons and swipes produce one decision for the current asset" started.
+​◇ Test case passing 2 arguments action → .delete, expected → .pendingDeletion to "Buttons and swipes produce one decision for the current asset" started.
+​✔ Test "Buttons and swipes produce one decision for the current asset" with 2 test cases passed after 0.004 seconds.
+◇ Test "A gesture for a stale card cannot consume the next card" started.
+✔ Test "A gesture for a stale card cannot consume the next card" passed after 0.001 seconds.
+◇ Test "Repeated undo restores the queue, card order, and skip state" started.
+✔ Test "Repeated undo restores the queue, card order, and skip state" passed after 0.001 seconds.
+◇ Test "Undo restores an exact preexisting decision" started.
+◇ Test case passing 1 argument prior → .kept to "Undo restores an exact preexisting decision" started.
+​◇ Test case passing 1 argument prior → .pendingDeletion to "Undo restores an exact preexisting decision" started.
+​✔ Test "Undo restores an exact preexisting decision" with 2 test cases passed after 0.001 seconds.
+◇ Test "A skip does not recur in the same pass and stays eligible for the next" started.
+✔ Test "A skip does not recur in the same pass and stays eligible for the next" passed after 0.001 seconds.
+◇ Test "Shuffle is deterministic under an injected generator and contains each eligible asset once" started.
+✔ Test "Shuffle is deterministic under an injected generator and contains each eligible asset once" passed after 0.001 seconds.
+◇ Test "Review decisions deduplicate across overlapping categories" started.
+✔ Test "Review decisions deduplicate across overlapping categories" passed after 0.001 seconds.
+◇ Test "Favorite protection is an explicit eligibility option" started.
+✔ Test "Favorite protection is an explicit eligibility option" passed after 0.001 seconds.
+◇ Test "Keep Instead changes only queued selections and invalidates swipe undo" started.
+✔ Test "Keep Instead changes only queued selections and invalidates swipe undo" passed after 0.005 seconds.
+◇ Test "Clearing the queue makes items unreviewed and cannot be reversed by swipe undo" started.
+✔ Test "Clearing the queue makes items unreviewed and cannot be reversed by swipe undo" passed after 0.001 seconds.
+◇ Test "Successful selected deletion clears only successful IDs and invalidates undo" started.
+✔ Test "Successful selected deletion clears only successful IDs and invalidates undo" passed after 0.001 seconds.
+◇ Test "An empty successful result leaves the queue and history unchanged" started.
+✔ Test "An empty successful result leaves the queue and history unchanged" passed after 0.001 seconds.
+◇ Test "Limited access changes preserve decisions without recording app deletions" started.
+✔ Test "Limited access changes preserve decisions without recording app deletions" passed after 0.001 seconds.
+◇ Test "New assets do not disrupt an active session" started.
+✔ Test "New assets do not disrupt an active session" passed after 0.001 seconds.
+◇ Test "Resetting review history never records a photo deletion" started.
+✔ Test "Resetting review history never records a photo deletion" passed after 0.001 seconds.
+◇ Test "Rapid repeated inputs cannot duplicate history or skip cards" started.
+✔ Test "Rapid repeated inputs cannot duplicate history or skip cards" passed after 0.001 seconds.
+✔ Suite ReviewStateTests passed after 0.011 seconds.
+◇ Suite ReviewStoreTests started.
+◇ Test "An absent store starts empty" started.
+✔ Test "An absent store starts empty" passed after 0.001 seconds.
+◇ Test "Relaunch restores exact session order, current card, queue, and undo" started.
+✔ Test "Relaunch restores exact session order, current card, queue, and undo" passed after 0.001 seconds.
+◇ Test "An older asynchronous save cannot overwrite newer progress" started.
+✔ Test "An older asynchronous save cannot overwrite newer progress" passed after 0.001 seconds.
+◇ Test "Concurrent saves finish with the newest revision" started.
+✔ Test "Concurrent saves finish with the newest revision" passed after 0.001 seconds.
+◇ Test "Corruption is reported and original bytes survive subsequent save attempts" started.
+✔ Test "Corruption is reported and original bytes survive subsequent save attempts" passed after 0.002 seconds.
+◇ Test "Unsupported versions do not silently reset progress" started.
+✔ Test "Unsupported versions do not silently reset progress" passed after 0.001 seconds.
+✔ Suite ReviewStoreTests passed after 0.012 seconds.
+✔ Test run with 39 tests in 5 suites passed after 0.063 seconds.
+2026-09-14 13:17:41.644 xcodebuild[45489:3435101] [MT] IDETestOperationsObserverDebug: 2.371 elapsed -- Testing started completed.
+2026-09-14 13:17:41.644 xcodebuild[45489:3435101] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-09-14 13:17:41.644 xcodebuild[45489:3435101] [MT] IDETestOperationsObserverDebug: 2.371 sec, +2.371 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/final-domain-photokit.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+
+Testing started

@@ -1,0 +1,1254 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PhotoTinder.xcodeproj -scheme PhotoTinder -destination "platform=iOS Simulator,id=34C20ACC-6657-467B-BAF1-CF34097AE244" -parallel-testing-enabled NO -derivedDataPath build -resultBundlePath evidence/core-ui.xcresult "-only-testing:PhotoTinderUITests" "-skip-testing:PhotoTinderUITests/PhotoTinderUITests/testEmptyLibraryAfterDeletingDisposableSamples" test CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/core-ui.xcresult
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (3 targets)
+    Target 'PhotoTinderUITests' in project 'PhotoTinder'
+        ➜ Explicit dependency on target 'PhotoTinder' in project 'PhotoTinder'
+    Target 'PhotoTinderTests' in project 'PhotoTinder'
+        ➜ Explicit dependency on target 'PhotoTinder' in project 'PhotoTinder'
+    Target 'PhotoTinder' in project 'PhotoTinder' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: bc7f4a78d8e5480f1827cbea14802af7
+Build description path: /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/XCBuildData/bc7f4a78d8e5480f1827cbea14802af7.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache
+    cd /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -o /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache
+
+SwiftDriver PhotoTinder normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinder -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ PhotoTinder (in target 'PhotoTinder' from project 'PhotoTinder')
+
+EmitSwiftModule normal arm64 (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for PhotoTinder (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriver\ Compilation\ Requirements PhotoTinder normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinder -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftsourceinfo (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftDriver PhotoTinder normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinder -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.abi.json (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ PhotoTinder (in target 'PhotoTinder' from project 'PhotoTinder')
+
+EmitSwiftModule normal x86_64 (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for PhotoTinder (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriver\ Compilation\ Requirements PhotoTinder normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinder -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.abi.json (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftsourceinfo (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+ProcessInfoPlistFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Info.plist /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/empty-PhotoTinder.plist (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-infoPlistUtility /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/empty-PhotoTinder.plist -producttype com.apple.product-type.application -genpkginfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/assetcatalog_generated_info.plist -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Info.plist
+
+SwiftCompile normal x86_64 Compiling\ RootView.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ RootView.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriver\ Compilation PhotoTinder normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinder -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/Binary/PhotoTinder.debug.dylib normal arm64 (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -Os -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -filelist /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.LinkFileList -install_name @rpath/PhotoTinder.debug.dylib -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder_lto.o -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftmodule @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/Binary/PhotoTinder.debug.dylib
+
+SwiftDriverJobDiscovery normal x86_64 Compiling RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriver\ Compilation PhotoTinder normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinder -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/Binary/PhotoTinder.debug.dylib normal x86_64 (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -Os -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -filelist /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.LinkFileList -install_name @rpath/PhotoTinder.debug.dylib -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder_lto.o -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftmodule @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/Binary/PhotoTinder.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-ExecutorLinkFileList-normal-arm64.txt (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    construct-stub-executor-link-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/Binary/PhotoTinder.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'PhotoTinder' from project 'PhotoTinder')
+
+Ld /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/Binary/PhotoTinder normal arm64 (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -Os -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-ExecutorLinkFileList-normal-arm64.txt /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/Binary/PhotoTinder.debug.dylib -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/Binary/PhotoTinder
+
+CreateUniversalBinary /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PhotoTinder.debug.dylib normal arm64\ x86_64 (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/Binary/PhotoTinder.debug.dylib /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/Binary/PhotoTinder.debug.dylib -output /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PhotoTinder.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-ExecutorLinkFileList-normal-x86_64.txt (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    construct-stub-executor-link-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/Binary/PhotoTinder.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-ExecutorLinkFileList-normal-x86_64.txt
+note: Using stub executor library with Swift entry point. (in target 'PhotoTinder' from project 'PhotoTinder')
+
+Ld /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/Binary/PhotoTinder normal x86_64 (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -Os -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-ExecutorLinkFileList-normal-x86_64.txt /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/Binary/PhotoTinder.debug.dylib -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/Binary/PhotoTinder
+
+CreateUniversalBinary /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PhotoTinder normal arm64\ x86_64 (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/Binary/PhotoTinder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/Binary/PhotoTinder -output /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PhotoTinder
+
+ExtractAppIntentsMetadata (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name PhotoTinder --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 26.0 --bundle-identifier org.local.PhotoTinder --output /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app --target-triple arm64-apple-ios26.0-simulator --target-triple x86_64-apple-ios26.0-simulator --binary-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PhotoTinder --dependency-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder_dependency_info.dat --dependency-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder_dependency_info.dat --stringsdata-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.SwiftFileList --source-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.SwiftFileList --metadata-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder.DependencyMetadataFileList --static-metadata-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder.DependencyStaticMetadataFileList --swift-const-vals-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.SwiftConstValuesFileList --swift-const-vals-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-09-14 12:44:46.419 appintentsmetadataprocessor[34510:3288894] Starting appintentsmetadataprocessor export
+2026-09-14 12:44:46.420 appintentsmetadataprocessor[34510:3288894] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+CopySwiftLibs /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PhotoTinder.debug.dylib --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/SystemExtensions --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Extensions --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+Ld /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/Binary/PhotoTinderTests normal arm64 (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -Os -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -filelist /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -bundle_loader /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PhotoTinder -Xlinker -object_path_lto -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests_lto.o -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.swiftmodule @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests-linker-args.resp -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PhotoTinder.debug.dylib -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/Binary/PhotoTinderTests
+
+Ld /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/Binary/PhotoTinderTests normal x86_64 (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -Os -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -filelist /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -bundle_loader /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PhotoTinder -Xlinker -object_path_lto -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests_lto.o -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.swiftmodule @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests-linker-args.resp -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PhotoTinder.debug.dylib -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/Binary/PhotoTinderTests
+
+CreateUniversalBinary /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/PhotoTinderTests normal arm64\ x86_64 (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/Binary/PhotoTinderTests /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/Binary/PhotoTinderTests -output /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/PhotoTinderTests
+
+ExtractAppIntentsMetadata (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name PhotoTinderTests --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 26.0 --bundle-identifier org.local.PhotoTinderTests --output /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest --target-triple arm64-apple-ios26.0-simulator --target-triple x86_64-apple-ios26.0-simulator --binary-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/PhotoTinderTests --dependency-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests_dependency_info.dat --dependency-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests_dependency_info.dat --stringsdata-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.SwiftFileList --source-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.SwiftFileList --metadata-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests.DependencyMetadataFileList --static-metadata-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests.DependencyStaticMetadataFileList --swift-const-vals-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.SwiftConstValuesFileList --swift-const-vals-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-09-14 12:44:46.780 appintentsmetadataprocessor[34520:3288969] Starting appintentsmetadataprocessor export
+2026-09-14 12:44:46.782 appintentsmetadataprocessor[34520:3288969] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+SwiftDriver PhotoTinderUITests normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinderUITests -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -parse-as-library -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver PhotoTinderUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinderUITests -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -parse-as-library -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+ProcessInfoPlistFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/Info.plist /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/empty-PhotoTinderTests.plist (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-infoPlistUtility /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/empty-PhotoTinderTests.plist -producttype com.apple.product-type.bundle.unit-test -expandbuildsettings -format binary -platform iphonesimulator -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/Info.plist
+
+CopySwiftLibs /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/PhotoTinderTests --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/Frameworks --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/PlugIns --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/SystemExtensions --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/Extensions --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+Validate /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-validationUtility /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app -shallow-bundle -infoplist-subpath Info.plist
+
+ProcessInfoPlistFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/Info.plist /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/empty-PhotoTinderUITests.plist (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-infoPlistUtility /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/empty-PhotoTinderUITests.plist -producttype com.apple.product-type.bundle.ui-testing -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/ProductTypeInfoPlistAdditions.plist -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/Info.plist
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ PhotoTinderUITests (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ PhotoTinderUITests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ PhotoTinderUITests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ PhotoTinderUITests (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for PhotoTinderUITests (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+
+SwiftDriver\ Compilation\ Requirements PhotoTinderUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinderUITests -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -parse-as-library -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.swiftsourceinfo (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for PhotoTinderUITests (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.abi.json (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+SwiftDriver\ Compilation\ Requirements PhotoTinderUITests normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinderUITests -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -parse-as-library -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.abi.json (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.swiftsourceinfo (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal x86_64 Compiling PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+
+SwiftDriver\ Compilation PhotoTinderUITests normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinderUITests -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -parse-as-library -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/Binary/PhotoTinderUITests normal x86_64 (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -Os -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -filelist /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests_lto.o -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.swiftmodule @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-linker-args.resp -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/Binary/PhotoTinderUITests
+
+SwiftDriverJobDiscovery normal arm64 Compiling PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+
+SwiftDriver\ Compilation PhotoTinderUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinderUITests -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -parse-as-library -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/Binary/PhotoTinderUITests normal arm64 (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -Os -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -filelist /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests_lto.o -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.swiftmodule @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-linker-args.resp -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/Binary/PhotoTinderUITests
+
+CreateUniversalBinary /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/PhotoTinderUITests normal arm64\ x86_64 (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/Binary/PhotoTinderUITests /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/Binary/PhotoTinderUITests -output /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/PhotoTinderUITests
+
+CopySwiftLibs /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/PhotoTinderUITests --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/Frameworks --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/PlugIns --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/SystemExtensions --scan-folder /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/Extensions --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name PhotoTinderUITests --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 26.0 --bundle-identifier org.local.PhotoTinderUITests --output /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest --target-triple arm64-apple-ios26.0-simulator --target-triple x86_64-apple-ios26.0-simulator --binary-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest/PhotoTinderUITests --dependency-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests_dependency_info.dat --dependency-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests_dependency_info.dat --stringsdata-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.SwiftFileList --source-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.SwiftFileList --metadata-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests.DependencyMetadataFileList --static-metadata-file-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests.DependencyStaticMetadataFileList --swift-const-vals-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.SwiftConstValuesFileList --swift-const-vals-list /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-09-14 12:44:47.400 appintentsmetadataprocessor[34543:3289131] Starting appintentsmetadataprocessor export
+2026-09-14 12:44:47.401 appintentsmetadataprocessor[34543:3289131] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+2026-09-14 12:44:48.231826-0400 PhotoTinderUITests-Runner[34548:3289396] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-09-14 12:44:48.778.
+Test Suite 'PhotoTinderUITests.xctest' started at 2026-09-14 12:44:48.778.
+Test Suite 'PhotoTinderUITests' started at 2026-09-14 12:44:48.778.
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testActualSelectedDeletion]' started.
+    t =     0.00s Start Test at 2026-09-14 12:44:48.779
+    t =     0.01s Set Up
+    t =     0.02s Open org.local.PhotoTinder
+    t =     0.02s     Launch org.local.PhotoTinder
+    t =     0.02s         Terminate org.local.PhotoTinder:34278
+objc[34548]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x10ab5c310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x109fdc398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+2026-09-14 12:44:49.858 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:44:49.858 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.49s         Setting up automation session
+    t =     2.01s         Wait for org.local.PhotoTinder to idle
+    t =     3.26s Waiting 3.0s for "requestAccess" Button to exist
+    t =     4.29s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.29s         Checking existence of `"requestAccess" Button`
+    t =     4.36s Tap "requestAccess" Button
+    t =     4.36s     Wait for org.local.PhotoTinder to idle
+    t =     4.36s     Find the "requestAccess" Button
+    t =     4.38s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.39s     Synthesize event
+    t =     4.68s     Wait for org.local.PhotoTinder to idle
+    t =     4.69s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     5.72s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     5.73s         Checking existence of `"Allow Full Access" Button`
+    t =     5.77s Tap "Allow Full Access" Button
+    t =     5.77s     Wait for com.apple.springboard to idle
+    t =     5.77s     Find the "Allow Full Access" Button
+    t =     5.79s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     5.82s     Synthesize event
+    t =     6.10s     Wait for com.apple.springboard to idle
+    t =     6.32s Waiting 15.0s for "shuffle" Button to exist
+    t =     7.35s     Checking `Expect predicate `existsNoRetry == 1` for object "shuffle" Button`
+    t =     7.36s         Checking existence of `"shuffle" Button`
+    t =     7.42s Find the "shuffle" Button
+    t =     7.45s Tap "shuffle" Button
+    t =     7.45s     Wait for org.local.PhotoTinder to idle
+    t =     7.45s     Find the "shuffle" Button
+    t =     7.48s     Check for interrupting elements affecting "shuffle" Button
+    t =     7.50s     Synthesize event
+    t =     7.79s     Wait for org.local.PhotoTinder to idle
+    t =     8.26s Waiting 15.0s for "deleteCard" Button to exist
+    t =     9.29s     Checking `Expect predicate `existsNoRetry == 1` for object "deleteCard" Button`
+    t =     9.29s         Checking existence of `"deleteCard" Button`
+    t =     9.36s Find the "deleteCard" Button
+    t =     9.39s Tap "deleteCard" Button
+    t =     9.39s     Wait for org.local.PhotoTinder to idle
+    t =     9.39s     Find the "deleteCard" Button
+    t =     9.42s     Check for interrupting elements affecting "deleteCard" Button
+    t =     9.45s     Synthesize event
+    t =     9.74s     Wait for org.local.PhotoTinder to idle
+    t =    10.19s Waiting 15.0s for "deleteCard" Button to exist
+    t =    11.23s     Checking `Expect predicate `existsNoRetry == 1` for object "deleteCard" Button`
+    t =    11.23s         Checking existence of `"deleteCard" Button`
+    t =    11.27s Find the "deleteCard" Button
+    t =    11.31s Tap "deleteCard" Button
+    t =    11.31s     Wait for org.local.PhotoTinder to idle
+    t =    11.31s     Find the "deleteCard" Button
+    t =    11.35s     Check for interrupting elements affecting "deleteCard" Button
+    t =    11.38s     Synthesize event
+    t =    11.67s     Wait for org.local.PhotoTinder to idle
+    t =    12.09s Waiting 15.0s for "deleteCard" Button to exist
+    t =    13.13s     Checking `Expect predicate `existsNoRetry == 1` for object "deleteCard" Button`
+    t =    13.13s         Checking existence of `"deleteCard" Button`
+    t =    13.18s Find the "deleteCard" Button
+    t =    13.22s Tap "deleteCard" Button
+    t =    13.22s     Wait for org.local.PhotoTinder to idle
+    t =    13.22s     Find the "deleteCard" Button
+    t =    13.26s     Check for interrupting elements affecting "deleteCard" Button
+    t =    13.29s     Synthesize event
+    t =    13.58s     Wait for org.local.PhotoTinder to idle
+    t =    14.01s Tap "closeSession" Button
+    t =    14.01s     Wait for org.local.PhotoTinder to idle
+    t =    14.01s     Find the "closeSession" Button
+    t =    14.06s     Check for interrupting elements affecting "closeSession" Button
+    t =    14.10s     Synthesize event
+    t =    14.39s     Wait for org.local.PhotoTinder to idle
+    t =    15.21s Tap "Review" Button
+    t =    15.21s     Wait for org.local.PhotoTinder to idle
+    t =    15.21s     Find the "Review" Button
+    t =    15.25s     Check for interrupting elements affecting "tray" Button
+    t =    15.28s     Synthesize event
+    t =    15.57s     Wait for org.local.PhotoTinder to idle
+    t =    16.84s Waiting 5.0s for "queueActions" Button to exist
+    t =    17.88s     Checking `Expect predicate `existsNoRetry == 1` for object "queueActions" Button`
+    t =    17.88s         Checking existence of `"queueActions" Button`
+    t =    17.90s Tap "selectQueueItem" Button
+    t =    17.90s     Wait for org.local.PhotoTinder to idle
+    t =    17.90s     Find the "selectQueueItem" Button
+    t =    17.93s     Check for interrupting elements affecting "selectQueueItem" Button
+    t =    17.95s     Synthesize event
+    t =    18.24s     Wait for org.local.PhotoTinder to idle
+    t =    18.24s Tap "deleteSelected" Button
+    t =    18.24s     Wait for org.local.PhotoTinder to idle
+    t =    18.24s     Find the "deleteSelected" Button
+    t =    18.26s     Check for interrupting elements affecting "deleteSelected" Button
+    t =    18.28s     Synthesize event
+    t =    18.57s     Wait for org.local.PhotoTinder to idle
+    t =    19.01s Tap "Delete 1 Item from Photos" Button
+    t =    19.01s     Wait for org.local.PhotoTinder to idle
+    t =    19.01s     Find the "Delete 1 Item from Photos" Button
+    t =    19.04s     Check for interrupting elements affecting "Delete 1 Item from Photos" Button
+    t =    19.06s     Synthesize event
+    t =    19.35s     Wait for org.local.PhotoTinder to idle
+    t =    19.69s Waiting 10.0s for "Delete" Button to exist
+    t =    20.73s     Checking `Expect predicate `existsNoRetry == 1` for object "Delete" Button`
+    t =    20.73s         Checking existence of `"Delete" Button`
+    t =    20.76s Tap "Delete" Button
+    t =    20.76s     Wait for com.apple.springboard to idle
+    t =    20.76s     Find the "Delete" Button
+    t =    20.78s     Check for interrupting elements affecting "Delete" Button
+    t =    20.81s     Synthesize event
+    t =    21.09s     Wait for com.apple.springboard to idle
+    t =    21.32s Waiting 10.0s for Alert (First Match) to exist
+    t =    22.35s     Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =    22.35s         Checking existence of `Alert (First Match)`
+    t =    22.36s Find the Target Application 'org.local.PhotoTinder'
+    t =    22.46s Added attachment named 'deleted-one-item'
+    t =    22.46s Tap "OK" Button
+    t =    22.46s     Wait for org.local.PhotoTinder to idle
+    t =    22.47s     Find the "OK" Button
+    t =    22.49s     Check for interrupting elements affecting "OK" Button
+    t =    22.51s     Synthesize event
+    t =    22.80s     Wait for org.local.PhotoTinder to idle
+    t =    23.04s Get number of matches for: Elements matching predicate '"queueThumbnail" IN identifiers'
+    t =    23.06s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testActualSelectedDeletion]' passed (23.313 seconds).
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testCoreSwipeUndoSkipAndResume]' started.
+    t =     0.00s Start Test at 2026-09-14 12:45:12.093
+    t =     0.02s Set Up
+    t =     0.03s Open org.local.PhotoTinder
+    t =     0.03s     Launch org.local.PhotoTinder
+    t =     0.03s         Terminate org.local.PhotoTinder:34557
+2026-09-14 12:45:13.166 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:45:13.166 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.28s         Setting up automation session
+    t =     1.78s         Wait for org.local.PhotoTinder to idle
+    t =     3.07s Waiting 3.0s for "requestAccess" Button to exist
+    t =     4.11s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.11s         Checking existence of `"requestAccess" Button`
+    t =     4.17s Tap "requestAccess" Button
+    t =     4.17s     Wait for org.local.PhotoTinder to idle
+    t =     4.17s     Find the "requestAccess" Button
+    t =     4.18s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.20s     Synthesize event
+    t =     4.49s     Wait for org.local.PhotoTinder to idle
+    t =     4.49s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     5.53s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     5.53s         Checking existence of `"Allow Full Access" Button`
+    t =     5.56s Tap "Allow Full Access" Button
+    t =     5.56s     Wait for com.apple.springboard to idle
+    t =     5.56s     Find the "Allow Full Access" Button
+    t =     5.58s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     5.61s     Synthesize event
+    t =     5.90s     Wait for com.apple.springboard to idle
+    t =     6.12s Waiting 15.0s for "shuffle" Button to exist
+    t =     7.14s     Checking `Expect predicate `existsNoRetry == 1` for object "shuffle" Button`
+    t =     7.14s         Checking existence of `"shuffle" Button`
+    t =     7.20s Find the "shuffle" Button
+    t =     7.23s Find the Target Application 'org.local.PhotoTinder'
+    t =     7.31s Added attachment named 'clean'
+    t =     7.31s Tap "shuffle" Button
+    t =     7.31s     Wait for org.local.PhotoTinder to idle
+    t =     7.31s     Find the "shuffle" Button
+    t =     7.34s     Check for interrupting elements affecting "shuffle" Button
+    t =     7.36s     Synthesize event
+    t =     7.65s     Wait for org.local.PhotoTinder to idle
+    t =     8.19s Waiting 15.0s for "keepCard" Button to exist
+    t =     9.22s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =     9.22s         Checking existence of `"keepCard" Button`
+    t =     9.27s Find the "keepCard" Button
+    t =     9.31s Find the Target Application 'org.local.PhotoTinder'
+    t =     9.40s Added attachment named 'swipe'
+    t =     9.40s Swipe left "mediaCard" Button
+    t =     9.40s     Wait for org.local.PhotoTinder to idle
+    t =     9.40s     Find the "mediaCard" Button
+    t =     9.44s     Check for interrupting elements affecting "mediaCard" Button
+    t =     9.47s     Synthesize event
+    t =     9.90s     Wait for org.local.PhotoTinder to idle
+    t =     9.90s Waiting 15.0s for "keepCard" Button to exist
+    t =    10.94s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    10.94s         Checking existence of `"keepCard" Button`
+    t =    10.99s Find the "keepCard" Button
+    t =    11.02s Find the "sessionQueue" Button
+    t =    11.05s Swipe right "mediaCard" Button
+    t =    11.05s     Wait for org.local.PhotoTinder to idle
+    t =    11.06s     Find the "mediaCard" Button
+    t =    11.09s     Check for interrupting elements affecting "mediaCard" Button
+    t =    11.12s     Synthesize event
+    t =    11.56s     Wait for org.local.PhotoTinder to idle
+    t =    11.56s Waiting 15.0s for "keepCard" Button to exist
+    t =    12.59s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    12.59s         Checking existence of `"keepCard" Button`
+    t =    12.64s Find the "keepCard" Button
+    t =    12.68s Tap "undo" Button
+    t =    12.68s     Wait for org.local.PhotoTinder to idle
+    t =    12.68s     Find the "undo" Button
+    t =    12.72s     Check for interrupting elements affecting "undo" Button
+    t =    12.75s     Synthesize event
+    t =    13.04s     Wait for org.local.PhotoTinder to idle
+    t =    13.82s Waiting 15.0s for "keepCard" Button to exist
+    t =    14.85s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    14.85s         Checking existence of `"keepCard" Button`
+    t =    14.89s Find the "keepCard" Button
+    t =    14.92s Tap "undo" Button
+    t =    14.92s     Wait for org.local.PhotoTinder to idle
+    t =    14.93s     Find the "undo" Button
+    t =    14.96s     Check for interrupting elements affecting "undo" Button
+    t =    14.99s     Synthesize event
+    t =    15.28s     Wait for org.local.PhotoTinder to idle
+    t =    16.08s Waiting 15.0s for "keepCard" Button to exist
+    t =    17.10s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    17.10s         Checking existence of `"keepCard" Button`
+    t =    17.14s Find the "keepCard" Button
+    t =    17.17s Find the "sessionQueue" Button
+    t =    17.20s Tap "skip" Button
+    t =    17.20s     Wait for org.local.PhotoTinder to idle
+    t =    17.20s     Find the "skip" Button
+    t =    17.24s     Check for interrupting elements affecting "skip" Button
+    t =    17.27s     Synthesize event
+    t =    17.56s     Wait for org.local.PhotoTinder to idle
+    t =    17.56s Waiting 15.0s for "keepCard" Button to exist
+    t =    18.59s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    18.59s         Checking existence of `"keepCard" Button`
+    t =    18.64s Find the "keepCard" Button
+    t =    18.68s Find the "sessionProgress" StaticText
+    t =    18.72s Tap "undo" Button
+    t =    18.72s     Wait for org.local.PhotoTinder to idle
+    t =    18.72s     Find the "undo" Button
+    t =    18.76s     Check for interrupting elements affecting "undo" Button
+    t =    18.79s     Synthesize event
+    t =    19.08s     Wait for org.local.PhotoTinder to idle
+    t =    19.88s Waiting 15.0s for "keepCard" Button to exist
+    t =    20.89s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    20.89s         Checking existence of `"keepCard" Button`
+    t =    20.94s Find the "keepCard" Button
+    t =    20.98s Tap "deleteCard" Button
+    t =    20.98s     Wait for org.local.PhotoTinder to idle
+    t =    20.98s     Find the "deleteCard" Button
+    t =    21.02s     Check for interrupting elements affecting "deleteCard" Button
+    t =    21.05s     Synthesize event
+    t =    21.34s     Wait for org.local.PhotoTinder to idle
+    t =    21.76s Waiting 15.0s for "keepCard" Button to exist
+    t =    22.78s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    22.78s         Checking existence of `"keepCard" Button`
+    t =    22.84s Find the "keepCard" Button
+    t =    22.87s Find the "sessionProgress" StaticText
+    t =    22.91s Tap "closeSession" Button
+    t =    22.91s     Wait for org.local.PhotoTinder to idle
+    t =    22.91s     Find the "closeSession" Button
+    t =    22.94s     Check for interrupting elements affecting "closeSession" Button
+    t =    22.98s     Synthesize event
+    t =    23.27s     Wait for org.local.PhotoTinder to idle
+    t =    24.09s Terminate org.local.PhotoTinder:34594
+    t =    25.14s Open org.local.PhotoTinder
+    t =    25.14s     Launch org.local.PhotoTinder
+2026-09-14 12:45:37.234 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:45:37.234 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =    25.35s         Setting up automation session
+    t =    25.84s         Wait for org.local.PhotoTinder to idle
+    t =    27.26s Waiting 3.0s for "requestAccess" Button to exist
+    t =    28.29s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =    28.29s         Checking existence of `"requestAccess" Button`
+    t =    28.37s         Capturing element debug description
+    t =    29.30s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =    29.30s         Checking existence of `"requestAccess" Button`
+    t =    29.34s         Capturing element debug description
+    t =    30.27s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =    30.27s         Checking existence of `"requestAccess" Button`
+    t =    30.30s         Capturing element debug description
+    t =    30.30s     Checking existence of `"requestAccess" Button`
+    t =    30.33s Collecting debug information to assist test failure triage
+    t =    30.33s     Requesting snapshot of accessibility hierarchy for app with pid 34612
+    t =    30.38s Waiting 10.0s for "continueSession" Button to exist
+    t =    31.41s     Checking `Expect predicate `existsNoRetry == 1` for object "continueSession" Button`
+    t =    31.41s         Checking existence of `"continueSession" Button`
+    t =    31.45s Tap "continueSession" Button
+    t =    31.45s     Wait for org.local.PhotoTinder to idle
+    t =    31.45s     Find the "continueSession" Button
+    t =    31.49s     Check for interrupting elements affecting "continueSession" Button
+    t =    31.51s     Synthesize event
+    t =    31.81s     Wait for org.local.PhotoTinder to idle
+    t =    32.43s Waiting 15.0s for "keepCard" Button to exist
+    t =    33.46s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    33.46s         Checking existence of `"keepCard" Button`
+    t =    33.51s Find the "keepCard" Button
+    t =    33.55s Find the "sessionProgress" StaticText
+    t =    33.58s Find the "sessionQueue" Button
+    t =    33.62s Tap "closeSession" Button
+    t =    33.62s     Wait for org.local.PhotoTinder to idle
+    t =    33.62s     Find the "closeSession" Button
+    t =    33.65s     Check for interrupting elements affecting "closeSession" Button
+    t =    33.68s     Synthesize event
+    t =    33.98s     Wait for org.local.PhotoTinder to idle
+    t =    34.81s Tap "Review" Button
+    t =    34.81s     Wait for org.local.PhotoTinder to idle
+    t =    34.81s     Find the "Review" Button
+    t =    34.85s     Check for interrupting elements affecting "tray" Button
+    t =    34.88s     Synthesize event
+    t =    35.17s     Wait for org.local.PhotoTinder to idle
+    t =    36.63s Get number of matches for: Elements matching predicate '"queueThumbnail" IN identifiers'
+    t =    36.65s Find the Target Application 'org.local.PhotoTinder'
+    t =    36.74s Added attachment named 'review'
+    t =    36.74s Tap "keepInstead" Button
+    t =    36.74s     Wait for org.local.PhotoTinder to idle
+    t =    36.74s     Find the "keepInstead" Button
+    t =    36.77s     Check for interrupting elements affecting "keepInstead" Button
+    t =    36.79s     Synthesize event
+    t =    37.08s     Wait for org.local.PhotoTinder to idle
+    t =    37.08s Waiting 5.0s for "Your Queue Is Clear" StaticText to exist
+    t =    38.10s     Checking `Expect predicate `existsNoRetry == 1` for object "Your Queue Is Clear" StaticText`
+    t =    38.10s         Checking existence of `"Your Queue Is Clear" StaticText`
+    t =    38.12s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testCoreSwipeUndoSkipAndResume]' passed (38.375 seconds).
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testDeletionFailurePreservesQueue]' started.
+    t =     0.00s Start Test at 2026-09-14 12:45:50.470
+    t =     0.02s Set Up
+    t =     0.03s Open org.local.PhotoTinder
+    t =     0.03s     Launch org.local.PhotoTinder
+    t =     0.03s         Terminate org.local.PhotoTinder:34612
+2026-09-14 12:45:51.537 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:45:51.537 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.27s         Setting up automation session
+    t =     1.77s         Wait for org.local.PhotoTinder to idle
+    t =     3.06s Waiting 3.0s for "requestAccess" Button to exist
+    t =     4.08s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.08s         Checking existence of `"requestAccess" Button`
+    t =     4.13s Tap "requestAccess" Button
+    t =     4.13s     Wait for org.local.PhotoTinder to idle
+    t =     4.13s     Find the "requestAccess" Button
+    t =     4.15s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.16s     Synthesize event
+    t =     4.45s     Wait for org.local.PhotoTinder to idle
+    t =     4.45s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     5.47s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     5.47s         Checking existence of `"Allow Full Access" Button`
+    t =     5.51s Tap "Allow Full Access" Button
+    t =     5.51s     Wait for com.apple.springboard to idle
+    t =     5.51s     Find the "Allow Full Access" Button
+    t =     5.54s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     5.56s     Synthesize event
+    t =     5.85s     Wait for com.apple.springboard to idle
+    t =     6.08s Waiting 15.0s for "shuffle" Button to exist
+    t =     7.09s     Checking `Expect predicate `existsNoRetry == 1` for object "shuffle" Button`
+    t =     7.09s         Checking existence of `"shuffle" Button`
+    t =     7.15s Find the "shuffle" Button
+    t =     7.18s Tap "shuffle" Button
+    t =     7.18s     Wait for org.local.PhotoTinder to idle
+    t =     7.18s     Find the "shuffle" Button
+    t =     7.21s     Check for interrupting elements affecting "shuffle" Button
+    t =     7.23s     Synthesize event
+    t =     7.52s     Wait for org.local.PhotoTinder to idle
+    t =     8.07s Waiting 15.0s for "deleteCard" Button to exist
+    t =     9.09s     Checking `Expect predicate `existsNoRetry == 1` for object "deleteCard" Button`
+    t =     9.09s         Checking existence of `"deleteCard" Button`
+    t =     9.14s Find the "deleteCard" Button
+    t =     9.17s Tap "deleteCard" Button
+    t =     9.17s     Wait for org.local.PhotoTinder to idle
+    t =     9.17s     Find the "deleteCard" Button
+    t =     9.21s     Check for interrupting elements affecting "deleteCard" Button
+    t =     9.24s     Synthesize event
+    t =     9.53s     Wait for org.local.PhotoTinder to idle
+    t =     9.95s Waiting 15.0s for "deleteCard" Button to exist
+    t =    10.97s     Checking `Expect predicate `existsNoRetry == 1` for object "deleteCard" Button`
+    t =    10.97s         Checking existence of `"deleteCard" Button`
+    t =    11.02s Find the "deleteCard" Button
+    t =    11.06s Tap "deleteCard" Button
+    t =    11.06s     Wait for org.local.PhotoTinder to idle
+    t =    11.06s     Find the "deleteCard" Button
+    t =    11.10s     Check for interrupting elements affecting "deleteCard" Button
+    t =    11.13s     Synthesize event
+    t =    11.42s     Wait for org.local.PhotoTinder to idle
+    t =    11.85s Tap "closeSession" Button
+    t =    11.85s     Wait for org.local.PhotoTinder to idle
+    t =    11.85s     Find the "closeSession" Button
+    t =    11.89s     Check for interrupting elements affecting "closeSession" Button
+    t =    11.93s     Synthesize event
+    t =    12.22s     Wait for org.local.PhotoTinder to idle
+    t =    13.05s Tap "Review" Button
+    t =    13.05s     Wait for org.local.PhotoTinder to idle
+    t =    13.05s     Find the "Review" Button
+    t =    13.08s     Check for interrupting elements affecting "tray" Button
+    t =    13.11s     Synthesize event
+    t =    13.39s     Wait for org.local.PhotoTinder to idle
+    t =    14.85s Waiting 5.0s for "queueActions" Button to exist
+    t =    15.88s     Checking `Expect predicate `existsNoRetry == 1` for object "queueActions" Button`
+    t =    15.88s         Checking existence of `"queueActions" Button`
+    t =    15.91s Tap "selectAll" Button
+    t =    15.91s     Wait for org.local.PhotoTinder to idle
+    t =    15.91s     Find the "selectAll" Button
+    t =    15.93s     Check for interrupting elements affecting "selectAll" Button
+    t =    15.95s     Synthesize event
+    t =    16.24s     Wait for org.local.PhotoTinder to idle
+    t =    16.24s Tap "deleteSelected" Button
+    t =    16.24s     Wait for org.local.PhotoTinder to idle
+    t =    16.25s     Find the "deleteSelected" Button
+    t =    16.26s     Check for interrupting elements affecting "deleteSelected" Button
+    t =    16.28s     Synthesize event
+    t =    16.57s     Wait for org.local.PhotoTinder to idle
+    t =    16.99s Tap "Delete 2 Items from Photos" Button
+    t =    16.99s     Wait for org.local.PhotoTinder to idle
+    t =    16.99s     Find the "Delete 2 Items from Photos" Button
+    t =    17.02s     Check for interrupting elements affecting "Delete 2 Items from Photos" Button
+    t =    17.05s     Synthesize event
+    t =    17.33s     Wait for org.local.PhotoTinder to idle
+    t =    17.68s Waiting 5.0s for Alert (First Match) to exist
+    t =    18.71s     Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =    18.71s         Checking existence of `Alert (First Match)`
+    t =    18.72s Find the StaticText (Element at index 1)
+    t =    18.75s Tap "OK" Button
+    t =    18.75s     Wait for org.local.PhotoTinder to idle
+    t =    18.75s     Find the "OK" Button
+    t =    18.77s     Check for interrupting elements affecting "OK" Button
+    t =    18.80s     Synthesize event
+    t =    19.09s     Wait for org.local.PhotoTinder to idle
+    t =    19.33s Get number of matches for: Elements matching predicate '"queueThumbnail" IN identifiers'
+    t =    19.35s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testDeletionFailurePreservesQueue]' passed (19.594 seconds).
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testInspectionAndVideo]' started.
+    t =     0.00s Start Test at 2026-09-14 12:46:10.064
+    t =     0.02s Set Up
+    t =     0.03s Open org.local.PhotoTinder
+    t =     0.03s     Launch org.local.PhotoTinder
+    t =     0.03s         Terminate org.local.PhotoTinder:34677
+2026-09-14 12:46:11.128 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:46:11.128 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.27s         Setting up automation session
+    t =     1.77s         Wait for org.local.PhotoTinder to idle
+    t =     3.03s Waiting 3.0s for "requestAccess" Button to exist
+    t =     4.04s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.04s         Checking existence of `"requestAccess" Button`
+    t =     4.09s Tap "requestAccess" Button
+    t =     4.09s     Wait for org.local.PhotoTinder to idle
+    t =     4.09s     Find the "requestAccess" Button
+    t =     4.11s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.12s     Synthesize event
+    t =     4.41s     Wait for org.local.PhotoTinder to idle
+    t =     4.41s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     5.44s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     5.45s         Checking existence of `"Allow Full Access" Button`
+    t =     5.48s Tap "Allow Full Access" Button
+    t =     5.48s     Wait for com.apple.springboard to idle
+    t =     5.48s     Find the "Allow Full Access" Button
+    t =     5.50s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     5.53s     Synthesize event
+    t =     5.82s     Wait for com.apple.springboard to idle
+    t =     6.06s Waiting 10.0s for "category-videos" Button to exist
+    t =     7.08s     Checking `Expect predicate `existsNoRetry == 1` for object "category-videos" Button`
+    t =     7.08s         Checking existence of `"category-videos" Button`
+    t =     7.14s Tap "category-videos" Button
+    t =     7.14s     Wait for org.local.PhotoTinder to idle
+    t =     7.14s     Find the "category-videos" Button
+    t =     7.17s     Check for interrupting elements affecting "category-videos" Button
+    t =     7.20s     Synthesize event
+    t =     7.49s     Wait for org.local.PhotoTinder to idle
+    t =     7.97s Waiting 15.0s for "playVideo" Button to exist
+    t =     9.00s     Checking `Expect predicate `existsNoRetry == 1` for object "playVideo" Button`
+    t =     9.00s         Checking existence of `"playVideo" Button`
+    t =     9.06s Find the "playVideo" Button
+    t =     9.10s Tap "playVideo" Button
+    t =     9.10s     Wait for org.local.PhotoTinder to idle
+    t =     9.10s     Find the "playVideo" Button
+    t =     9.14s     Check for interrupting elements affecting "playVideo" Button
+    t =     9.17s     Synthesize event
+    t =     9.46s     Wait for org.local.PhotoTinder to idle
+    t =    10.49s Checking `Expect predicate `label == "Pause"` for object "playVideo" Button`
+    t =    10.49s     Find the "playVideo" Button
+    t =    10.53s Tap "Unmute" Button
+    t =    10.53s     Wait for org.local.PhotoTinder to idle
+    t =    10.54s     Find the "Unmute" Button
+    t =    10.58s     Check for interrupting elements affecting "speaker.slash" Button
+    t =    10.61s     Synthesize event
+    t =    10.90s     Wait for org.local.PhotoTinder to idle
+    t =    10.90s Tap "inspect" Button
+    t =    10.90s     Wait for org.local.PhotoTinder to idle
+    t =    10.90s     Find the "inspect" Button
+    t =    10.94s     Check for interrupting elements affecting "inspect" Button
+    t =    10.97s     Synthesize event
+    t =    11.25s     Wait for org.local.PhotoTinder to idle
+    t =    11.63s Waiting 5.0s for "closeInspection" Button to exist
+    t =    12.64s     Checking `Expect predicate `existsNoRetry == 1` for object "closeInspection" Button`
+    t =    12.64s         Checking existence of `"closeInspection" Button`
+    t =    12.72s Find the Target Application 'org.local.PhotoTinder'
+    t =    12.82s Added attachment named 'video-inspection'
+    t =    12.82s Tap "closeInspection" Button
+    t =    12.82s     Wait for org.local.PhotoTinder to idle
+    t =    12.82s     Find the "closeInspection" Button
+    t =    12.87s     Check for interrupting elements affecting "closeInspection" Button
+    t =    12.90s     Synthesize event
+    t =    13.20s     Wait for org.local.PhotoTinder to idle
+    t =    14.02s Find the "playVideo" Button
+    t =    14.07s Tap "closeSession" Button
+    t =    14.07s     Wait for org.local.PhotoTinder to idle
+    t =    14.07s     Find the "closeSession" Button
+    t =    14.11s     Check for interrupting elements affecting "closeSession" Button
+    t =    14.14s     Synthesize event
+    t =    14.44s     Wait for org.local.PhotoTinder to idle
+    t =    15.25s Tap "shuffle" Button
+    t =    15.25s     Wait for org.local.PhotoTinder to idle
+    t =    15.26s     Find the "shuffle" Button
+    t =    15.29s     Check for interrupting elements affecting "shuffle" Button
+    t =    15.32s     Synthesize event
+    t =    15.61s     Wait for org.local.PhotoTinder to idle
+    t =    16.22s Waiting 15.0s for "inspect" Button to exist
+    t =    17.24s     Checking `Expect predicate `existsNoRetry == 1` for object "inspect" Button`
+    t =    17.24s         Checking existence of `"inspect" Button`
+    t =    17.30s Find the "inspect" Button
+    t =    17.33s Find the "sessionProgress" StaticText
+    t =    17.37s Tap "inspect" Button
+    t =    17.37s     Wait for org.local.PhotoTinder to idle
+    t =    17.37s     Find the "inspect" Button
+    t =    17.40s     Check for interrupting elements affecting "inspect" Button
+    t =    17.44s     Synthesize event
+    t =    17.72s     Wait for org.local.PhotoTinder to idle
+    t =    18.07s Waiting 5.0s for "closeInspection" Button to exist
+    t =    19.09s     Checking `Expect predicate `existsNoRetry == 1` for object "closeInspection" Button`
+    t =    19.09s         Checking existence of `"closeInspection" Button`
+    t =    19.15s Swipe left Target Application 'org.local.PhotoTinder'
+    t =    19.15s     Wait for org.local.PhotoTinder to idle
+    t =    19.15s     Find the Target Application 'org.local.PhotoTinder'
+    t =    19.18s     Check for interrupting elements affecting "Photo Tinder" Application
+    t =    19.22s     Synthesize event
+    t =    19.64s     Wait for org.local.PhotoTinder to idle
+    t =    19.64s Swipe right Target Application 'org.local.PhotoTinder'
+    t =    19.64s     Wait for org.local.PhotoTinder to idle
+    t =    19.64s     Find the Target Application 'org.local.PhotoTinder'
+    t =    19.68s     Check for interrupting elements affecting "Photo Tinder" Application
+    t =    19.72s     Synthesize event
+    t =    20.14s     Wait for org.local.PhotoTinder to idle
+    t =    20.14s Tap "closeInspection" Button
+    t =    20.14s     Wait for org.local.PhotoTinder to idle
+    t =    20.14s     Find the "closeInspection" Button
+    t =    20.19s     Check for interrupting elements affecting "closeInspection" Button
+    t =    20.23s     Synthesize event
+    t =    20.52s     Wait for org.local.PhotoTinder to idle
+    t =    21.34s Find the "sessionProgress" StaticText
+    t =    21.38s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testInspectionAndVideo]' passed (21.607 seconds).
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testPermissionDenied]' started.
+    t =     0.00s Start Test at 2026-09-14 12:46:31.672
+    t =     0.02s Set Up
+    t =     0.03s Open org.local.PhotoTinder
+    t =     0.03s     Launch org.local.PhotoTinder
+    t =     0.03s         Terminate org.local.PhotoTinder:34820
+2026-09-14 12:46:32.729 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:46:32.730 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.27s         Setting up automation session
+    t =     1.76s         Wait for org.local.PhotoTinder to idle
+    t =     3.01s Waiting 10.0s for "requestAccess" Button to exist
+    t =     4.05s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.05s         Checking existence of `"requestAccess" Button`
+    t =     4.10s Tap "requestAccess" Button
+    t =     4.10s     Wait for org.local.PhotoTinder to idle
+    t =     4.10s     Find the "requestAccess" Button
+    t =     4.12s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.13s     Synthesize event
+    t =     4.42s     Wait for org.local.PhotoTinder to idle
+    t =     4.42s Waiting 10.0s for "Don’t Allow" Button to exist
+    t =     5.44s     Checking `Expect predicate `existsNoRetry == 1` for object "Don’t Allow" Button`
+    t =     5.44s         Checking existence of `"Don’t Allow" Button`
+    t =     5.47s Tap "Don’t Allow" Button
+    t =     5.47s     Wait for com.apple.springboard to idle
+    t =     5.47s     Find the "Don’t Allow" Button
+    t =     5.49s     Check for interrupting elements affecting "Don’t Allow" Button
+    t =     5.52s     Synthesize event
+    t =     5.81s     Wait for com.apple.springboard to idle
+    t =     6.02s Waiting 10.0s for "Open Settings" Button to exist
+    t =     7.04s     Checking `Expect predicate `existsNoRetry == 1` for object "Open Settings" Button`
+    t =     7.04s         Checking existence of `"Open Settings" Button`
+    t =     7.06s Find the Target Application 'org.local.PhotoTinder'
+    t =     7.14s Added attachment named 'permission-denied'
+    t =     7.14s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testPermissionDenied]' passed (7.362 seconds).
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testPermissionFull]' started.
+    t =     0.00s Start Test at 2026-09-14 12:46:39.035
+    t =     0.02s Set Up
+    t =     0.03s Open org.local.PhotoTinder
+    t =     0.03s     Launch org.local.PhotoTinder
+    t =     0.03s         Terminate org.local.PhotoTinder:34850
+2026-09-14 12:46:40.096 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:46:40.096 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.27s         Setting up automation session
+    t =     1.75s         Wait for org.local.PhotoTinder to idle
+    t =     3.01s Waiting 10.0s for "requestAccess" Button to exist
+    t =     4.04s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.04s         Checking existence of `"requestAccess" Button`
+    t =     4.09s Tap "requestAccess" Button
+    t =     4.09s     Wait for org.local.PhotoTinder to idle
+    t =     4.09s     Find the "requestAccess" Button
+    t =     4.11s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.13s     Synthesize event
+    t =     4.41s     Wait for org.local.PhotoTinder to idle
+    t =     4.42s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     5.44s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     5.44s         Checking existence of `"Allow Full Access" Button`
+    t =     5.48s Tap "Allow Full Access" Button
+    t =     5.48s     Wait for com.apple.springboard to idle
+    t =     5.48s     Find the "Allow Full Access" Button
+    t =     5.50s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     5.53s     Synthesize event
+    t =     5.82s     Wait for com.apple.springboard to idle
+    t =     6.04s Waiting 10.0s for "shuffle" Button to exist
+    t =     7.07s     Checking `Expect predicate `existsNoRetry == 1` for object "shuffle" Button`
+    t =     7.07s         Checking existence of `"shuffle" Button`
+    t =     7.12s Tap "settings" Button
+    t =     7.12s     Wait for org.local.PhotoTinder to idle
+    t =     7.12s     Find the "settings" Button
+    t =     7.15s     Check for interrupting elements affecting "settings" Button
+    t =     7.18s     Synthesize event
+    t =     7.47s     Wait for org.local.PhotoTinder to idle
+    t =     8.30s Waiting 5.0s for "Photo Access, Full Access" StaticText to exist
+    t =     9.32s     Checking `Expect predicate `existsNoRetry == 1` for object "Photo Access, Full Access" StaticText`
+    t =     9.32s         Checking existence of `"Photo Access, Full Access" StaticText`
+    t =     9.38s Find the Target Application 'org.local.PhotoTinder'
+    t =     9.48s Added attachment named 'permission-full'
+    t =     9.48s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testPermissionFull]' passed (9.703 seconds).
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testPermissionLimited]' started.
+    t =     0.00s Start Test at 2026-09-14 12:46:48.738
+    t =     0.02s Set Up
+    t =     0.02s Open org.local.PhotoTinder
+    t =     0.02s     Launch org.local.PhotoTinder
+    t =     0.03s         Terminate org.local.PhotoTinder:34860
+2026-09-14 12:46:49.794 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:46:49.795 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.26s         Setting up automation session
+    t =     1.76s         Wait for org.local.PhotoTinder to idle
+    t =     3.05s Waiting 10.0s for "requestAccess" Button to exist
+    t =     4.07s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.07s         Checking existence of `"requestAccess" Button`
+    t =     4.12s Tap "requestAccess" Button
+    t =     4.12s     Wait for org.local.PhotoTinder to idle
+    t =     4.12s     Find the "requestAccess" Button
+    t =     4.14s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.16s     Synthesize event
+    t =     4.44s     Wait for org.local.PhotoTinder to idle
+    t =     4.45s Waiting 10.0s for "Limit Access…" Button to exist
+    t =     5.47s     Checking `Expect predicate `existsNoRetry == 1` for object "Limit Access…" Button`
+    t =     5.47s         Checking existence of `"Limit Access…" Button`
+    t =     5.51s Tap "Limit Access…" Button
+    t =     5.51s     Wait for com.apple.springboard to idle
+    t =     5.51s     Find the "Limit Access…" Button
+    t =     5.54s     Check for interrupting elements affecting "Limit Access…" Button
+    t =     5.56s     Synthesize event
+    t =     5.85s     Wait for com.apple.springboard to idle
+    t =     6.07s Find the Target Application 'org.local.PhotoTinder'
+    t =     6.30s Added attachment named 'limited-picker'
+    t =     6.30s Waiting 10.0s for Cell (First Match) to exist
+    t =     7.32s     Checking `Expect predicate `existsNoRetry == 1` for object Cell (First Match)`
+    t =     7.32s         Checking existence of `Cell (First Match)`
+    t =     7.66s Get all elements bound by index for: Descendants matching type Cell
+    t =     7.81s Find the Cell (Element at index 0)
+    t =     7.96s Find the Cell (Element at index 1)
+    t =     8.10s Find the Cell (Element at index 2)
+    t =     8.24s Find the Cell (Element at index 3)
+    t =     8.38s Find the Cell (Element at index 4)
+    t =     8.52s Find the Cell (Element at index 5)
+    t =     8.66s Find the Cell (Element at index 6)
+    t =     8.81s Find the Cell (Element at index 7)
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift:78: error: -[PhotoTinderUITests.PhotoTinderUITests testPermissionLimited] : XCTAssertNotNil failed
+    t =     8.96s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testPermissionLimited]' failed (9.184 seconds).
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testQueueClearAndDeletionCancel]' started.
+    t =     0.00s Start Test at 2026-09-14 12:46:57.922
+    t =     0.01s Set Up
+    t =     0.02s Open org.local.PhotoTinder
+    t =     0.02s     Launch org.local.PhotoTinder
+    t =     0.02s         Terminate org.local.PhotoTinder:34888
+2026-09-14 12:46:58.993 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:46:58.993 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.28s         Setting up automation session
+    t =     1.78s         Wait for org.local.PhotoTinder to idle
+    t =     3.04s Waiting 3.0s for "requestAccess" Button to exist
+    t =     4.06s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.06s         Checking existence of `"requestAccess" Button`
+    t =     4.10s Tap "requestAccess" Button
+    t =     4.10s     Wait for org.local.PhotoTinder to idle
+    t =     4.10s     Find the "requestAccess" Button
+    t =     4.11s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.13s     Synthesize event
+    t =     4.42s     Wait for org.local.PhotoTinder to idle
+    t =     4.42s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     5.45s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     5.45s         Checking existence of `"Allow Full Access" Button`
+    t =     5.48s Tap "Allow Full Access" Button
+    t =     5.48s     Wait for com.apple.springboard to idle
+    t =     5.48s     Find the "Allow Full Access" Button
+    t =     5.50s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     5.53s     Synthesize event
+    t =     5.82s     Wait for com.apple.springboard to idle
+    t =     6.04s Waiting 15.0s for "shuffle" Button to exist
+    t =     7.06s     Checking `Expect predicate `existsNoRetry == 1` for object "shuffle" Button`
+    t =     7.06s         Checking existence of `"shuffle" Button`
+    t =     7.12s Find the "shuffle" Button
+    t =     7.15s Tap "shuffle" Button
+    t =     7.15s     Wait for org.local.PhotoTinder to idle
+    t =     7.15s     Find the "shuffle" Button
+    t =     7.18s     Check for interrupting elements affecting "shuffle" Button
+    t =     7.20s     Synthesize event
+    t =     7.49s     Wait for org.local.PhotoTinder to idle
+    t =     8.11s Waiting 15.0s for "deleteCard" Button to exist
+    t =     9.13s     Checking `Expect predicate `existsNoRetry == 1` for object "deleteCard" Button`
+    t =     9.13s         Checking existence of `"deleteCard" Button`
+    t =     9.18s Find the "deleteCard" Button
+    t =     9.21s Tap "deleteCard" Button
+    t =     9.21s     Wait for org.local.PhotoTinder to idle
+    t =     9.21s     Find the "deleteCard" Button
+    t =     9.25s     Check for interrupting elements affecting "deleteCard" Button
+    t =     9.28s     Synthesize event
+    t =     9.57s     Wait for org.local.PhotoTinder to idle
+    t =    10.01s Waiting 15.0s for "deleteCard" Button to exist
+    t =    11.04s     Checking `Expect predicate `existsNoRetry == 1` for object "deleteCard" Button`
+    t =    11.04s         Checking existence of `"deleteCard" Button`
+    t =    11.08s Find the "deleteCard" Button
+    t =    11.12s Tap "deleteCard" Button
+    t =    11.12s     Wait for org.local.PhotoTinder to idle
+    t =    11.12s     Find the "deleteCard" Button
+    t =    11.16s     Check for interrupting elements affecting "deleteCard" Button
+    t =    11.19s     Synthesize event
+    t =    11.48s     Wait for org.local.PhotoTinder to idle
+    t =    11.91s Waiting 15.0s for "deleteCard" Button to exist
+    t =    12.94s     Checking `Expect predicate `existsNoRetry == 1` for object "deleteCard" Button`
+    t =    12.94s         Checking existence of `"deleteCard" Button`
+    t =    12.99s Find the "deleteCard" Button
+    t =    13.02s Tap "deleteCard" Button
+    t =    13.02s     Wait for org.local.PhotoTinder to idle
+    t =    13.03s     Find the "deleteCard" Button
+    t =    13.06s     Check for interrupting elements affecting "deleteCard" Button
+    t =    13.09s     Synthesize event
+    t =    13.38s     Wait for org.local.PhotoTinder to idle
+    t =    13.81s Tap "closeSession" Button
+    t =    13.81s     Wait for org.local.PhotoTinder to idle
+    t =    13.81s     Find the "closeSession" Button
+    t =    13.85s     Check for interrupting elements affecting "closeSession" Button
+    t =    13.89s     Synthesize event
+    t =    14.18s     Wait for org.local.PhotoTinder to idle
+    t =    15.01s Tap "Review" Button
+    t =    15.01s     Wait for org.local.PhotoTinder to idle
+    t =    15.01s     Find the "Review" Button
+    t =    15.04s     Check for interrupting elements affecting "tray" Button
+    t =    15.07s     Synthesize event
+    t =    15.36s     Wait for org.local.PhotoTinder to idle
+    t =    16.81s Waiting 5.0s for "queueActions" Button to exist
+    t =    17.84s     Checking `Expect predicate `existsNoRetry == 1` for object "queueActions" Button`
+    t =    17.84s         Checking existence of `"queueActions" Button`
+    t =    17.88s Tap "selectQueueItem" Button
+    t =    17.88s     Wait for org.local.PhotoTinder to idle
+    t =    17.88s     Find the "selectQueueItem" Button
+    t =    17.92s     Check for interrupting elements affecting "selectQueueItem" Button
+    t =    17.94s     Synthesize event
+    t =    18.23s     Wait for org.local.PhotoTinder to idle
+    t =    18.23s Find the "selectionCount" StaticText
+    t =    18.25s Tap "deleteSelected" Button
+    t =    18.25s     Wait for org.local.PhotoTinder to idle
+    t =    18.25s     Find the "deleteSelected" Button
+    t =    18.28s     Check for interrupting elements affecting "deleteSelected" Button
+    t =    18.29s     Synthesize event
+    t =    18.58s     Wait for org.local.PhotoTinder to idle
+    t =    19.01s Tap "Cancel" Button
+    t =    19.01s     Wait for org.local.PhotoTinder to idle
+    t =    19.01s     Find the "Cancel" Button
+    t =    20.06s         Find the "Cancel" Button (retry 1)
+    t =    21.10s         Find the "Cancel" Button (retry 2)
+    t =    21.14s Requesting snapshot of accessibility hierarchy for app with pid 34906
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift:159: error: -[PhotoTinderUITests.PhotoTinderUITests testQueueClearAndDeletionCancel] : Failed to tap "Cancel" Button: No matches found for Elements matching predicate '"Cancel" IN identifiers' from input {(
+    Button, identifier: 'square.stack', label: 'Clean',
+    Button, identifier: 'tray', label: 'Review', Selected,
+    Button, label: 'Delete 1 Item from Photos',
+    Button, identifier: 'queueActions', label: 'Queue Actions',
+    Button, identifier: 'deleteSelected', label: 'Delete 1 Item',
+    Button, identifier: 'selectAll', label: 'Select All',
+    Button, identifier: 'queueThumbnail', label: 'Inspect queued Photo, Sep 1, 2026 at 7:35 PM, item 1 of 3',
+    Button, identifier: 'selectQueueItem', label: 'Deselect Photo, Sep 1, 2026 at 7:35 PM, item 1 of 3', value: Selected for delet...,
+    Button, identifier: 'keepInstead', label: 'Keep Photo, Sep 1, 2026 at 7:35 PM, item 1 of 3 instead',
+    Button, identifier: 'queueThumbnail', label: 'Inspect queued Photo, Aug 23, 2026 at 7:35 PM, item 2 of 3',
+    Button, identifier: 'selectQueueItem', label: 'Select Photo, Aug 23, 2026 at 7:35 PM, item 2 of 3', value: Not selected,
+    Button, identifier: 'keepInstead', label: 'Keep Photo, Aug 23, 2026 at 7:35 PM, item 2 of 3 instead',
+    Button, identifier: 'queueThumbnail', label: 'Inspect queued Photo, Apr 23, 2025 at 10:35 AM, item 3 of 3',
+    Button, identifier: 'selectQueueItem', label: 'Select Photo, Apr 23, 2025 at 10:35 AM, item 3 of 3', value: Not selected,
+    Button, identifier: 'keepInstead', label: 'Keep Photo, Apr 23, 2025 at 10:35 AM, item 3 of 3 instead'
+)}
+    t =    21.18s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testQueueClearAndDeletionCancel]' failed (21.435 seconds).
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testRapidButtonsAndAccessibleAlternatives]' started.
+    t =     0.00s Start Test at 2026-09-14 12:47:19.358
+    t =     0.02s Set Up
+    t =     0.04s Open org.local.PhotoTinder
+    t =     0.04s     Launch org.local.PhotoTinder
+    t =     0.04s         Terminate org.local.PhotoTinder:34906
+2026-09-14 12:47:20.428 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 12:47:20.428 xcodebuild[34314:3287853] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.28s         Setting up automation session
+    t =     1.75s         Wait for org.local.PhotoTinder to idle
+    t =     3.06s Waiting 3.0s for "requestAccess" Button to exist
+    t =     4.09s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.09s         Checking existence of `"requestAccess" Button`
+    t =     4.15s Tap "requestAccess" Button
+    t =     4.15s     Wait for org.local.PhotoTinder to idle
+    t =     4.15s     Find the "requestAccess" Button
+    t =     4.17s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.18s     Synthesize event
+    t =     4.47s     Wait for org.local.PhotoTinder to idle
+    t =     4.47s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     5.50s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     5.50s         Checking existence of `"Allow Full Access" Button`
+    t =     5.52s Tap "Allow Full Access" Button
+    t =     5.52s     Wait for com.apple.springboard to idle
+    t =     5.53s     Find the "Allow Full Access" Button
+    t =     5.55s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     5.57s     Synthesize event
+    t =     5.86s     Wait for com.apple.springboard to idle
+    t =     6.10s Tap "shuffle" Button
+    t =     6.10s     Wait for org.local.PhotoTinder to idle
+    t =     6.51s     Find the "shuffle" Button
+    t =     6.55s     Check for interrupting elements affecting "shuffle" Button
+    t =     6.58s     Synthesize event
+    t =     6.87s     Wait for org.local.PhotoTinder to idle
+    t =     7.42s Waiting 15.0s for "keepCard" Button to exist
+    t =     8.43s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =     8.43s         Checking existence of `"keepCard" Button`
+    t =     8.48s Find the "keepCard" Button
+    t =     8.52s Waiting 15.0s for "keepCard" Button to exist
+    t =     9.54s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =     9.54s         Checking existence of `"keepCard" Button`
+    t =     9.58s Find the "keepCard" Button
+    t =     9.61s Tap "keepCard" Button
+    t =     9.61s     Wait for org.local.PhotoTinder to idle
+    t =     9.62s     Find the "keepCard" Button
+    t =     9.65s     Check for interrupting elements affecting "keepCard" Button
+    t =     9.69s     Synthesize event
+    t =     9.97s     Wait for org.local.PhotoTinder to idle
+    t =    10.39s Waiting 15.0s for "keepCard" Button to exist
+    t =    11.41s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    11.41s         Checking existence of `"keepCard" Button`
+    t =    11.45s Find the "keepCard" Button
+    t =    11.49s Tap "keepCard" Button
+    t =    11.49s     Wait for org.local.PhotoTinder to idle
+    t =    11.50s     Find the "keepCard" Button
+    t =    11.53s     Check for interrupting elements affecting "keepCard" Button
+    t =    11.57s     Synthesize event
+    t =    11.85s     Wait for org.local.PhotoTinder to idle
+    t =    12.26s Waiting 15.0s for "keepCard" Button to exist
+    t =    13.28s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    13.28s         Checking existence of `"keepCard" Button`
+    t =    13.33s Find the "keepCard" Button
+    t =    13.37s Tap "keepCard" Button
+    t =    13.37s     Wait for org.local.PhotoTinder to idle
+    t =    13.37s     Find the "keepCard" Button
+    t =    13.41s     Check for interrupting elements affecting "keepCard" Button
+    t =    13.44s     Synthesize event
+    t =    13.72s     Wait for org.local.PhotoTinder to idle
+    t =    14.16s Waiting 15.0s for "keepCard" Button to exist
+    t =    15.18s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    15.18s         Checking existence of `"keepCard" Button`
+    t =    15.22s Find the "keepCard" Button
+    t =    15.26s Tap "keepCard" Button
+    t =    15.26s     Wait for org.local.PhotoTinder to idle
+    t =    15.26s     Find the "keepCard" Button
+    t =    15.30s     Check for interrupting elements affecting "keepCard" Button
+    t =    15.33s     Synthesize event
+    t =    15.61s     Wait for org.local.PhotoTinder to idle
+    t =    16.04s Waiting 15.0s for "keepCard" Button to exist
+    t =    17.06s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    17.06s         Checking existence of `"keepCard" Button`
+    t =    17.10s Find the "keepCard" Button
+    t =    17.14s Tap "keepCard" Button
+    t =    17.14s     Wait for org.local.PhotoTinder to idle
+    t =    17.14s     Find the "keepCard" Button
+    t =    17.18s     Check for interrupting elements affecting "keepCard" Button
+    t =    17.22s     Synthesize event
+    t =    17.51s     Wait for org.local.PhotoTinder to idle
+    t =    17.92s Waiting 15.0s for "keepCard" Button to exist
+    t =    18.94s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    18.94s         Checking existence of `"keepCard" Button`
+    t =    18.99s Find the "keepCard" Button
+    t =    19.02s Find the "sessionProgress" StaticText
+    t =    19.06s Tap "undo" Button
+    t =    19.06s     Wait for org.local.PhotoTinder to idle
+    t =    19.06s     Find the "undo" Button
+    t =    19.10s     Check for interrupting elements affecting "undo" Button
+    t =    19.13s     Synthesize event
+    t =    19.42s     Wait for org.local.PhotoTinder to idle
+    t =    20.21s Waiting 15.0s for "keepCard" Button to exist
+    t =    21.24s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    21.24s         Checking existence of `"keepCard" Button`
+    t =    21.28s Find the "keepCard" Button
+    t =    21.32s Tap "undo" Button
+    t =    21.32s     Wait for org.local.PhotoTinder to idle
+    t =    21.33s     Find the "undo" Button
+    t =    21.36s     Check for interrupting elements affecting "undo" Button
+    t =    21.39s     Synthesize event
+    t =    21.67s     Wait for org.local.PhotoTinder to idle
+    t =    22.47s Waiting 15.0s for "keepCard" Button to exist
+    t =    23.49s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    23.49s         Checking existence of `"keepCard" Button`
+    t =    23.54s Find the "keepCard" Button
+    t =    23.57s Tap "undo" Button
+    t =    23.57s     Wait for org.local.PhotoTinder to idle
+    t =    23.57s     Find the "undo" Button
+    t =    23.60s     Check for interrupting elements affecting "undo" Button
+    t =    23.63s     Synthesize event
+    t =    23.92s     Wait for org.local.PhotoTinder to idle
+    t =    24.74s Waiting 15.0s for "keepCard" Button to exist
+    t =    25.77s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    25.77s         Checking existence of `"keepCard" Button`
+    t =    25.83s Find the "keepCard" Button
+    t =    25.87s Tap "undo" Button
+    t =    25.87s     Wait for org.local.PhotoTinder to idle
+    t =    25.87s     Find the "undo" Button
+    t =    25.90s     Check for interrupting elements affecting "undo" Button
+    t =    25.93s     Synthesize event
+    t =    26.22s     Wait for org.local.PhotoTinder to idle
+    t =    26.99s Waiting 15.0s for "keepCard" Button to exist
+    t =    28.01s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    28.01s         Checking existence of `"keepCard" Button`
+    t =    28.06s Find the "keepCard" Button
+    t =    28.09s Tap "undo" Button
+    t =    28.09s     Wait for org.local.PhotoTinder to idle
+    t =    28.09s     Find the "undo" Button
+    t =    28.13s     Check for interrupting elements affecting "undo" Button
+    t =    28.16s     Synthesize event
+    t =    28.44s     Wait for org.local.PhotoTinder to idle
+    t =    29.22s Waiting 15.0s for "keepCard" Button to exist
+    t =    30.25s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    30.25s         Checking existence of `"keepCard" Button`
+    t =    30.29s Find the "keepCard" Button
+    t =    30.32s Find the "sessionProgress" StaticText
+    t =    30.36s Find the "undo" Button
+    t =    30.39s Find the "skip" Button
+    t =    30.43s Find the "deleteCard" Button
+    t =    30.47s Find the Target Application 'org.local.PhotoTinder'
+    t =    30.57s Added attachment named 'accessible-controls'
+    t =    30.57s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testRapidButtonsAndAccessibleAlternatives]' passed (30.809 seconds).
+Test Suite 'PhotoTinderUITests' failed at 2026-09-14 12:47:50.167.
+	 Executed 9 tests, with 2 failures (0 unexpected) in 181.381 (181.389) seconds
+Test Suite 'PhotoTinderUITests.xctest' failed at 2026-09-14 12:47:50.168.
+	 Executed 9 tests, with 2 failures (0 unexpected) in 181.381 (181.389) seconds
+Test Suite 'Selected tests' failed at 2026-09-14 12:47:50.168.
+	 Executed 9 tests, with 2 failures (0 unexpected) in 181.381 (181.390) seconds
+2026-09-14 12:47:59.061 xcodebuild[34314:3287853] [MT] IDETestOperationsObserverDebug: 191.653 elapsed -- Testing started completed.
+2026-09-14 12:47:59.061 xcodebuild[34314:3287853] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-09-14 12:47:59.061 xcodebuild[34314:3287853] [MT] IDETestOperationsObserverDebug: 191.653 sec, +191.653 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/core-ui.xcresult
+
+Failing tests:
+	PhotoTinderUITests.testPermissionLimited()
+	PhotoTinderUITests.testQueueClearAndDeletionCancel()
+
+** TEST FAILED **
+
+Testing started

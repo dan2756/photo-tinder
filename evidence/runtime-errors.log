@@ -1,0 +1,136 @@
+Timestamp               Ty Process[PID:TID]
+2026-09-14 13:05:03.963 E  PhotoTinder[41263:33960f] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:05:03.963 E  PhotoTinder[41263:33960f] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:05:03.965 E  PhotoTinder[41263:33960f] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:05:03.965 E  PhotoTinder[41263:33960f] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:05:03.966 E  PhotoTinder[41263:33960f] [com.apple.coremedia:] (Fig) signalled err=-12900 at <>:1242
+2026-09-14 13:05:03.966 E  PhotoTinder[41263:33960f] [com.apple.coremedia:] <<<< VRP >>>> signalled err=-12852 at <>:2336
+2026-09-14 13:05:07.737 E  PhotoTinder[41263:33960d] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:05:07.737 E  PhotoTinder[41263:33960d] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:05:07.739 E  PhotoTinder[41263:33960d] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:05:07.740 E  PhotoTinder[41263:33960d] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:05:07.741 E  PhotoTinder[41263:33960d] [com.apple.coremedia:] (Fig) signalled err=-12900 at <>:1242
+2026-09-14 13:05:07.741 E  PhotoTinder[41263:33960d] [com.apple.coremedia:] <<<< VRP >>>> signalled err=-12852 at <>:2336
+2026-09-14 13:05:20.249 E  PhotoTinder[41303:339760] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:05:31.069 E  PhotoTinder[41336:33999e] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:05:43.897 E  PhotoTinder[41336:339a20] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:05:43.923 E  PhotoTinder[41336:339a20] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:05:45.538 E  PhotoTinder[41336:33999e] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:05:45.562 E  PhotoTinder[41336:339a20] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:05:45.588 E  PhotoTinder[41336:339a20] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:05:45.610 E  PhotoTinder[41336:339a20] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:05:50.550 E  PhotoTinder[41375:339bf9] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:06:20.922 E  PhotoTinder[41643:33a19f] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:06:24.244 E  PhotoTinder[41643:33a215] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x116899d80> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-09-14 13:06:24.315 E  PhotoTinder[41643:33a258] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1755  ReadPListFile: unable to open stream for LoudnessManager plist
+2026-09-14 13:06:24.315 E  PhotoTinder[41643:33a258] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1261  GetHardwarePlatformKey: cannot get acoustic ID
+2026-09-14 13:06:24.315 E  PhotoTinder[41643:33a258] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:06:24.315 E  PhotoTinder[41643:33a258] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:06:24.318 E  PhotoTinder[41643:33a258] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:06:24.318 E  PhotoTinder[41643:33a258] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:06:24.321 E  PhotoTinder[41643:33a258] [com.apple.coremedia:] (Fig) signalled err=-12900 at <>:1242
+2026-09-14 13:06:24.321 E  PhotoTinder[41643:33a258] [com.apple.coremedia:] <<<< VRP >>>> signalled err=-12852 at <>:2336
+2026-09-14 13:06:27.915 F  PhotoTinder[41643:33a19f] [com.apple.runtime-issues:SwiftUI] Adding 'UIKitToolbar' as a subview of UIHostingController.view is not supported and may result in a broken view hierarchy. Add your view above UIHostingController.view in a common superview or insert it into your SwiftUI content in a UIViewRepresentable instead.
+2026-09-14 13:06:28.001 E  PhotoTinder[41643:33a24e] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:06:28.001 E  PhotoTinder[41643:33a24e] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:06:28.003 E  PhotoTinder[41643:33a24e] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:06:28.003 E  PhotoTinder[41643:33a24e] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:06:28.005 E  PhotoTinder[41643:33a24e] [com.apple.coremedia:] (Fig) signalled err=-12900 at <>:1242
+2026-09-14 13:06:28.005 E  PhotoTinder[41643:33a24e] [com.apple.coremedia:] <<<< VRP >>>> signalled err=-12852 at <>:2336
+2026-09-14 13:06:28.450 E  PhotoTinder[41643:33a19f] [com.apple.dt.xctest:Default] Unexpectedly received animationDidStop without a matching animationDidStart. Monitoring for idle animations may no longer function correctly.
+2026-09-14 13:06:29.521 E  PhotoTinder[41643:33a215] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 52 from class VKCImageTextSelectionView_iOS:UIView, traits 140883517505536, but AXAutomationType returned 0 which maps to 1
+2026-09-14 13:06:29.554 E  PhotoTinder[41643:33a216] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 52 from class VKCImageTextSelectionView_iOS:UIView, traits 140883517505536, but AXAutomationType returned 0 which maps to 1
+2026-09-14 13:06:29.665 E  PhotoTinder[41643:33a215] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 52 from class VKCImageTextSelectionView_iOS:UIView, traits 140883517505536, but AXAutomationType returned 0 which maps to 1
+2026-09-14 13:06:29.702 E  PhotoTinder[41643:33a216] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 52 from class VKCImageTextSelectionView_iOS:UIView, traits 140883517505536, but AXAutomationType returned 0 which maps to 1
+2026-09-14 13:06:30.141 E  PhotoTinder[41643:33a215] [com.apple.coregraphics:Unknown process name] verify_image_parameters: invalid image bits/pixel or bytes/row.
+2026-09-14 13:06:30.143 E  PhotoTinder[41643:33a215] [com.apple.VisionKit:com.apple.VisionKit.RemoveBackground] Request to remove background on an unsupported device. Error Domain=com.apple.VisionKit.RemoveBackground Code=-8 "(null)"
+2026-09-14 13:06:30.143 E  PhotoTinder[41643:33a215] [com.apple.VisionKit:com.apple.VisionKit.RemoveBackground] Error generating mask only remove background image: <VKCImageSubjectHighlightView: 0x11f598e00> id: 1 - Error Domain=com.apple.VisionKit.RemoveBackground Code=-8 "(null)"
+2026-09-14 13:06:42.352 E  PhotoTinder[42097:33a8d6] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:06:49.656 E  PhotoTinder[42267:33aae9] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:06:59.319 E  PhotoTinder[42296:33ac4c] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:07:07.858 E  PhotoTinder[42296:33ac8a] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x1158ba3a0> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-09-14 13:07:07.923 E  PhotoTinder[42296:33afc9] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1755  ReadPListFile: unable to open stream for LoudnessManager plist
+2026-09-14 13:07:07.923 E  PhotoTinder[42296:33afc9] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1261  GetHardwarePlatformKey: cannot get acoustic ID
+2026-09-14 13:07:07.923 E  PhotoTinder[42296:33afc9] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:07:07.923 E  PhotoTinder[42296:33afc9] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:07:07.926 E  PhotoTinder[42296:33afc9] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:07:07.926 E  PhotoTinder[42296:33afc9] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:07:07.928 E  PhotoTinder[42296:33afc9] [com.apple.coremedia:] (Fig) signalled err=-12900 at <>:1242
+2026-09-14 13:07:07.929 E  PhotoTinder[42296:33afc9] [com.apple.coremedia:] <<<< VRP >>>> signalled err=-12852 at <>:2336
+2026-09-14 13:07:13.821 E  PhotoTinder[42355:33b134] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:07:18.043 E  PhotoTinder[42355:33b134] [com.apple.dt.xctest:Default] Unexpectedly received animationDidStop without a matching animationDidStart. Monitoring for idle animations may no longer function correctly.
+2026-09-14 13:07:18.060 E  PhotoTinder[42355:33b134] [com.apple.dt.xctest:Default] Unexpectedly received animationDidStop without a matching animationDidStart. Monitoring for idle animations may no longer function correctly.
+2026-09-14 13:07:18.077 E  PhotoTinder[42355:33b134] [com.apple.dt.xctest:Default] Unexpectedly received animationDidStop without a matching animationDidStart. Monitoring for idle animations may no longer function correctly.
+2026-09-14 13:07:18.077 E  PhotoTinder[42355:33b134] [com.apple.dt.xctest:Default] Unexpectedly received animationDidStop without a matching animationDidStart. Monitoring for idle animations may no longer function correctly.
+2026-09-14 13:07:18.177 E  PhotoTinder[42355:33b134] [com.apple.dt.xctest:Default] Unexpectedly received animationDidStop without a matching animationDidStart. Monitoring for idle animations may no longer function correctly.
+2026-09-14 13:07:18.477 E  PhotoTinder[42355:33b134] [com.apple.dt.xctest:Default] Unexpectedly received animationDidStop without a matching animationDidStart. Monitoring for idle animations may no longer function correctly.
+2026-09-14 13:07:28.862 E  PhotoTinder[42413:33b4eb] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:07:43.546 E  PhotoTinder[42413:33b5b8] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:07:43.573 E  PhotoTinder[42413:33b5b7] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:07:44.762 E  PhotoTinder[42413:33b5b3] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:07:44.786 E  PhotoTinder[42413:33b5b5] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:07:47.991 E  PhotoTinder[42413:33b4eb] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:07:48.017 E  PhotoTinder[42413:33b5b7] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:07:48.120 E  PhotoTinder[42413:33b4f8] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:07:48.143 E  PhotoTinder[42413:33b5b7] [com.apple.dt.xctest:Default] Automation type mismatch; legacy system derived element type 7 from class _UIAlertControllerPhoneTVMacView:_UIAlertControllerPhoneTVMacView, traits 72057602627862528, but AXAutomationType returned 3 which maps to 5
+2026-09-14 13:07:48.858 E  PhotoTinder[42413:33b4eb] [com.apple.UIKit:UILog] Called -[UIContextMenuInteraction updateVisibleMenuWithBlock:] while no context menu is visible. This won't do anything.
+2026-09-14 13:07:57.499 E  PhotoTinder[42484:33ba12] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:08:10.821 E  PhotoTinder[42484:33ba1c] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x115b92d80> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-09-14 13:08:10.885 E  PhotoTinder[42484:33bc48] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1755  ReadPListFile: unable to open stream for LoudnessManager plist
+2026-09-14 13:08:10.885 E  PhotoTinder[42484:33bc48] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1261  GetHardwarePlatformKey: cannot get acoustic ID
+2026-09-14 13:08:10.885 E  PhotoTinder[42484:33bc48] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:08:10.885 E  PhotoTinder[42484:33bc48] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:08:10.888 E  PhotoTinder[42484:33bc48] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:08:10.888 E  PhotoTinder[42484:33bc48] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:08:10.890 E  PhotoTinder[42484:33bc48] [com.apple.coremedia:] (Fig) signalled err=-12900 at <>:1242
+2026-09-14 13:08:10.891 E  PhotoTinder[42484:33bc48] [com.apple.coremedia:] <<<< VRP >>>> signalled err=-12852 at <>:2336
+2026-09-14 13:08:28.270 E  PhotoTinder[42556:33bf3d] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:09:02.133 E  PhotoTinder[42954:33c746] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:10:44.656 E  PhotoTinder[43601:34045b] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:10:53.002 E  PhotoTinder[43601:34069b] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x115884e00> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-09-14 13:10:53.068 E  PhotoTinder[43601:3406af] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1755  ReadPListFile: unable to open stream for LoudnessManager plist
+2026-09-14 13:10:53.068 E  PhotoTinder[43601:3406af] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1261  GetHardwarePlatformKey: cannot get acoustic ID
+2026-09-14 13:10:53.068 E  PhotoTinder[43601:3406af] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:10:53.068 E  PhotoTinder[43601:3406af] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:10:53.071 E  PhotoTinder[43601:3406af] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:10:53.071 E  PhotoTinder[43601:3406af] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:10:53.073 E  PhotoTinder[43601:3406af] [com.apple.coremedia:] (Fig) signalled err=-12900 at <>:1242
+2026-09-14 13:10:53.073 E  PhotoTinder[43601:3406af] [com.apple.coremedia:] <<<< VRP >>>> signalled err=-12852 at <>:2336
+2026-09-14 13:11:33.937 E  PhotoTinder[43766:3410fe] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:12:28.340 E  PhotoTinder[43951:341b8f] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:15:16.702 E  PhotoTinder[44924:3446c7] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:15:48.921 E  PhotoTinder[45148:34504b] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:16:38.574 E  PhotoTinder[45307:345c0e] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:16:54.680 E  PhotoTinder[45355:345e9a] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:17:05.232 E  PhotoTinder[45355:3460e1] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x1160cdb40> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-09-14 13:17:05.298 E  PhotoTinder[45355:3460ff] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1755  ReadPListFile: unable to open stream for LoudnessManager plist
+2026-09-14 13:17:05.298 E  PhotoTinder[45355:3460ff] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1261  GetHardwarePlatformKey: cannot get acoustic ID
+2026-09-14 13:17:05.298 E  PhotoTinder[45355:3460ff] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:05.298 E  PhotoTinder[45355:3460ff] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:05.301 E  PhotoTinder[45355:3460ff] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:05.301 E  PhotoTinder[45355:3460ff] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:05.303 E  PhotoTinder[45355:3460ff] [com.apple.coremedia:] (Fig) signalled err=-12900 at <>:1242
+2026-09-14 13:17:05.303 E  PhotoTinder[45355:3460ff] [com.apple.coremedia:] <<<< VRP >>>> signalled err=-12852 at <>:2336
+2026-09-14 13:17:15.675 E  PhotoTinder[45403:3462d9] [com.apple.Accessibility:AXRuntimeCommon] Unknown client: PhotoTinder
+2026-09-14 13:17:20.927 E  PhotoTinder[45403:34638b] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x1152b2c80> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-09-14 13:17:20.993 E  PhotoTinder[45403:3464c6] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1755  ReadPListFile: unable to open stream for LoudnessManager plist
+2026-09-14 13:17:20.993 E  PhotoTinder[45403:3464c6] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1261  GetHardwarePlatformKey: cannot get acoustic ID
+2026-09-14 13:17:20.993 E  PhotoTinder[45403:3464c6] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:20.993 E  PhotoTinder[45403:3464c6] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:20.996 E  PhotoTinder[45403:3464c6] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:20.996 E  PhotoTinder[45403:3464c6] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:20.999 E  PhotoTinder[45403:3464c6] [com.apple.coremedia:] (Fig) signalled err=-12900 at <>:1242
+2026-09-14 13:17:20.999 E  PhotoTinder[45403:3464c6] [com.apple.coremedia:] <<<< VRP >>>> signalled err=-12852 at <>:2336
+2026-09-14 13:17:24.996 E  PhotoTinder[45403:3464c6] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:24.996 E  PhotoTinder[45403:3464c6] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:24.998 E  PhotoTinder[45403:3464c6] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:24.998 E  PhotoTinder[45403:3464c6] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:25.000 E  PhotoTinder[45403:3464c6] [com.apple.coremedia:] (Fig) signalled err=-12900 at <>:1242
+2026-09-14 13:17:25.000 E  PhotoTinder[45403:3464c6] [com.apple.coremedia:] <<<< VRP >>>> signalled err=-12852 at <>:2336
+2026-09-14 13:17:40.976 E  PhotoTinder[45506:346c29] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x1159eaee0> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-09-14 13:17:41.039 E  PhotoTinder[45506:346c69] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1755  ReadPListFile: unable to open stream for LoudnessManager plist
+2026-09-14 13:17:41.039 E  PhotoTinder[45506:346c69] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1261  GetHardwarePlatformKey: cannot get acoustic ID
+2026-09-14 13:17:41.039 E  PhotoTinder[45506:346c69] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:41.040 E  PhotoTinder[45506:346c69] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:41.041 E  PhotoTinder[45506:346c69] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false
+2026-09-14 13:17:41.041 E  PhotoTinder[45506:346c69] [com.apple.coreaudio:AQ]        LoudnessManager.mm:1215  IsHardwareSupported: no plist loaded, returning false

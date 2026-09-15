@@ -1,0 +1,318 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PhotoTinder.xcodeproj -scheme PhotoTinder -destination "platform=iOS Simulator,id=34C20ACC-6657-467B-BAF1-CF34097AE244" -parallel-testing-enabled NO -derivedDataPath build -resultBundlePath evidence/final-ui-rerun.xcresult test-without-building "-only-testing:PhotoTinderUITests/PhotoTinderUITests/testAppearanceAndLargeText" "-only-testing:PhotoTinderUITests/PhotoTinderUITests/testPermissionLimited" "-only-testing:PhotoTinderUITests/PhotoTinderUITests/testRapidConsecutiveSwipes" CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/final-ui-rerun.xcresult
+
+2026-09-14 13:16:34.785035-0400 PhotoTinderUITests-Runner[45292:3431284] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-09-14 13:16:35.176.
+Test Suite 'PhotoTinderUITests.xctest' started at 2026-09-14 13:16:35.176.
+Test Suite 'PhotoTinderUITests' started at 2026-09-14 13:16:35.176.
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testAppearanceAndLargeText]' started.
+    t =     0.00s Start Test at 2026-09-14 13:16:35.177
+    t =     0.02s Set Up
+    t =     0.02s Open org.local.PhotoTinder
+    t =     0.02s     Launch org.local.PhotoTinder
+2026-09-14 13:16:35.228 xcodebuild[45274:3430934] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 13:16:35.228 xcodebuild[45274:3430934] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     0.46s         Setting up automation session
+objc[45292]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x1064dc310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x105cb0398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =     0.98s         Wait for org.local.PhotoTinder to idle
+    t =     2.27s Waiting 3.0s for "requestAccess" Button to exist
+    t =     3.31s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     3.32s         Checking existence of `"requestAccess" Button`
+    t =     3.36s Tap "requestAccess" Button
+    t =     3.36s     Wait for org.local.PhotoTinder to idle
+    t =     3.36s     Find the "requestAccess" Button
+    t =     3.38s     Check for interrupting elements affecting "requestAccess" Button
+    t =     3.39s     Synthesize event
+    t =     3.68s     Wait for org.local.PhotoTinder to idle
+    t =     3.69s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     4.72s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     4.72s         Checking existence of `"Allow Full Access" Button`
+    t =     4.75s Tap "Allow Full Access" Button
+    t =     4.75s     Wait for com.apple.springboard to idle
+    t =     4.75s     Find the "Allow Full Access" Button
+    t =     4.78s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     4.80s     Synthesize event
+    t =     5.09s     Wait for com.apple.springboard to idle
+    t =     5.31s Waiting 15.0s for "shuffle" Button to exist
+    t =     6.35s     Checking `Expect predicate `existsNoRetry == 1` for object "shuffle" Button`
+    t =     6.35s         Checking existence of `"shuffle" Button`
+    t =     6.39s Find the "shuffle" Button
+    t =     6.41s Find the Target Application 'org.local.PhotoTinder'
+    t =     6.48s Added attachment named 'appearance-clean'
+    t =     6.48s Tap "shuffle" Button
+    t =     6.48s     Wait for org.local.PhotoTinder to idle
+    t =     6.49s     Find the "shuffle" Button
+    t =     6.51s     Check for interrupting elements affecting "shuffle" Button
+    t =     6.53s     Synthesize event
+    t =     6.82s     Wait for org.local.PhotoTinder to idle
+    t =     7.41s Waiting 15.0s for "keepCard" Button to exist
+    t =     8.45s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =     8.45s         Checking existence of `"keepCard" Button`
+    t =     8.51s Find the "keepCard" Button
+    t =     8.55s Find the Target Application 'org.local.PhotoTinder'
+    t =     8.64s Added attachment named 'appearance-swipe'
+    t =     8.64s Find the Target Application 'org.local.PhotoTinder'
+    t =     8.73s Find the Target Application 'org.local.PhotoTinder'
+    t =     8.75s Find the "mediaCard" Button
+    t =     8.80s Find the "keepCard" Button
+    t =     8.84s Find the "deleteCard" Button
+    t =     8.88s Find the "skip" Button
+    t =     8.92s Tap "deleteCard" Button
+    t =     8.92s     Wait for org.local.PhotoTinder to idle
+    t =     8.92s     Find the "deleteCard" Button
+    t =     8.95s     Check for interrupting elements affecting "deleteCard" Button
+    t =     8.98s     Synthesize event
+    t =     9.27s     Wait for org.local.PhotoTinder to idle
+    t =     9.70s Waiting 15.0s for "keepCard" Button to exist
+    t =    10.73s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    10.73s         Checking existence of `"keepCard" Button`
+    t =    10.78s Find the "keepCard" Button
+    t =    10.81s Tap "closeSession" Button
+    t =    10.81s     Wait for org.local.PhotoTinder to idle
+    t =    10.82s     Find the "closeSession" Button
+    t =    10.85s     Check for interrupting elements affecting "closeSession" Button
+    t =    10.88s     Synthesize event
+    t =    11.17s     Wait for org.local.PhotoTinder to idle
+    t =    12.00s Tap "Review" Button
+    t =    12.00s     Wait for org.local.PhotoTinder to idle
+    t =    12.00s     Find the "Review" Button
+    t =    12.02s     Check for interrupting elements affecting "tray" Button
+    t =    12.05s     Synthesize event
+    t =    12.34s     Wait for org.local.PhotoTinder to idle
+    t =    13.83s Waiting 5.0s for "keepInstead" Button to exist
+    t =    14.87s     Checking `Expect predicate `existsNoRetry == 1` for object "keepInstead" Button`
+    t =    14.87s         Checking existence of `"keepInstead" Button`
+    t =    14.93s Find the "keepInstead" Button
+    t =    14.97s Find the "keepInstead" Button
+    t =    15.00s Find the Target Application 'org.local.PhotoTinder'
+    t =    15.07s Added attachment named 'appearance-review'
+    t =    15.07s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testAppearanceAndLargeText]' passed (15.314 seconds).
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testPermissionLimited]' started.
+    t =     0.00s Start Test at 2026-09-14 13:16:50.492
+    t =     0.02s Set Up
+    t =     0.04s Open org.local.PhotoTinder
+    t =     0.04s     Launch org.local.PhotoTinder
+    t =     0.04s         Terminate org.local.PhotoTinder:45307
+2026-09-14 13:16:51.576 xcodebuild[45274:3430934] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 13:16:51.577 xcodebuild[45274:3430934] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.29s         Setting up automation session
+    t =     1.79s         Wait for org.local.PhotoTinder to idle
+    t =     3.06s Waiting 10.0s for "requestAccess" Button to exist
+    t =     4.09s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.09s         Checking existence of `"requestAccess" Button`
+    t =     4.14s Tap "requestAccess" Button
+    t =     4.14s     Wait for org.local.PhotoTinder to idle
+    t =     4.15s     Find the "requestAccess" Button
+    t =     4.16s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.18s     Synthesize event
+    t =     4.47s     Wait for org.local.PhotoTinder to idle
+    t =     4.47s Waiting 10.0s for "Limit Access…" Button to exist
+    t =     5.51s     Checking `Expect predicate `existsNoRetry == 1` for object "Limit Access…" Button`
+    t =     5.51s         Checking existence of `"Limit Access…" Button`
+    t =     5.53s Tap "Limit Access…" Button
+    t =     5.53s     Wait for com.apple.springboard to idle
+    t =     5.53s     Find the "Limit Access…" Button
+    t =     5.55s     Check for interrupting elements affecting "Limit Access…" Button
+    t =     5.57s     Synthesize event
+    t =     5.86s     Wait for com.apple.springboard to idle
+    t =     6.09s Waiting 5.0s for "Cancel" Button to exist
+    t =     7.13s     Checking `Expect predicate `existsNoRetry == 1` for object "Cancel" Button`
+    t =     7.13s         Checking existence of `"Cancel" Button`
+    t =     7.61s Find the Target Application 'org.local.PhotoTinder'
+    t =     7.81s Added attachment named 'limited-picker'
+    t =     7.81s Tap Target Application 'org.local.PhotoTinder'[0.17, 0.45]
+    t =     7.81s     Wait for org.local.PhotoTinder to idle
+    t =     7.81s     Find the Target Application 'org.local.PhotoTinder'
+    t =     7.93s     Check for interrupting elements affecting "Photo Tinder" Application
+    t =     8.05s     Synthesize event
+    t =     8.05s         Find the Target Application 'org.local.PhotoTinder'
+    t =     8.17s         Find the Target Application 'org.local.PhotoTinder'
+    t =     8.28s         Find the Target Application 'org.local.PhotoTinder'
+    t =     8.68s     Wait for org.local.PhotoTinder to idle
+    t =     8.69s Tap Target Application 'org.local.PhotoTinder'[0.91, 0.17]
+    t =     8.69s     Wait for org.local.PhotoTinder to idle
+    t =     8.69s     Find the Target Application 'org.local.PhotoTinder'
+    t =     8.83s     Check for interrupting elements affecting "Photo Tinder" Application
+    t =     8.94s     Synthesize event
+    t =     8.95s         Find the Target Application 'org.local.PhotoTinder'
+    t =     9.06s         Find the Target Application 'org.local.PhotoTinder'
+    t =     9.17s         Find the Target Application 'org.local.PhotoTinder'
+    t =     9.57s     Wait for org.local.PhotoTinder to idle
+    t =     9.96s Waiting 10.0s for "Manage Selection" Button to exist
+    t =    11.00s     Checking `Expect predicate `existsNoRetry == 1` for object "Manage Selection" Button`
+    t =    11.00s         Checking existence of `"Manage Selection" Button`
+    t =    11.04s Waiting 5.0s for "shuffle" Button to exist
+    t =    12.07s     Checking `Expect predicate `existsNoRetry == 1` for object "shuffle" Button`
+    t =    12.07s         Checking existence of `"shuffle" Button`
+    t =    13.15s Checking `Expect predicate `enabled == 1` for object "shuffle" Button`
+    t =    13.15s     Find the "shuffle" Button
+    t =    13.20s Waiting 15.0s for "shuffle" Button to exist
+    t =    14.23s     Checking `Expect predicate `existsNoRetry == 1` for object "shuffle" Button`
+    t =    14.23s         Checking existence of `"shuffle" Button`
+    t =    14.28s Find the "shuffle" Button
+    t =    14.30s Find the Target Application 'org.local.PhotoTinder'
+    t =    14.39s Added attachment named 'permission-limited'
+    t =    14.39s Tap "shuffle" Button
+    t =    14.39s     Wait for org.local.PhotoTinder to idle
+    t =    14.39s     Find the "shuffle" Button
+    t =    14.41s     Check for interrupting elements affecting "shuffle" Button
+    t =    14.43s     Synthesize event
+    t =    14.72s     Wait for org.local.PhotoTinder to idle
+    t =    15.35s Waiting 15.0s for "keepCard" Button to exist
+    t =    16.38s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    16.38s         Checking existence of `"keepCard" Button`
+    t =    16.45s Find the "keepCard" Button
+    t =    16.49s Find the "sessionProgress" StaticText
+    t =    16.52s Tap "closeSession" Button
+    t =    16.52s     Wait for org.local.PhotoTinder to idle
+    t =    16.52s     Find the "closeSession" Button
+    t =    16.55s     Check for interrupting elements affecting "closeSession" Button
+    t =    16.58s     Synthesize event
+    t =    16.87s     Wait for org.local.PhotoTinder to idle
+    t =    17.68s Tap "Manage Selection" Button
+    t =    17.68s     Wait for org.local.PhotoTinder to idle
+    t =    17.69s     Find the "Manage Selection" Button
+    t =    17.73s     Check for interrupting elements affecting "Manage Selection" Button
+    t =    17.75s     Synthesize event
+    t =    18.04s     Wait for org.local.PhotoTinder to idle
+    t =    18.53s Waiting 5.0s for "Cancel" Button to exist
+    t =    19.56s     Checking `Expect predicate `existsNoRetry == 1` for object "Cancel" Button`
+    t =    19.56s         Checking existence of `"Cancel" Button`
+    t =    19.87s Tap "Cancel" Button
+    t =    19.87s     Wait for org.local.PhotoTinder to idle
+    t =    19.87s     Find the "Cancel" Button
+    t =    20.03s     Check for interrupting elements affecting "Cancel" Button
+    t =    20.14s     Synthesize event
+    t =    20.43s     Wait for org.local.PhotoTinder to idle
+    t =    20.81s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testPermissionLimited]' passed (21.056 seconds).
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testRapidConsecutiveSwipes]' started.
+    t =     0.00s Start Test at 2026-09-14 13:17:11.549
+    t =     0.02s Set Up
+    t =     0.03s Open org.local.PhotoTinder
+    t =     0.03s     Launch org.local.PhotoTinder
+    t =     0.04s         Terminate org.local.PhotoTinder:45355
+2026-09-14 13:17:12.618 xcodebuild[45274:3430934] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 13:17:12.618 xcodebuild[45274:3430934] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.28s         Setting up automation session
+    t =     1.77s         Wait for org.local.PhotoTinder to idle
+    t =     3.00s Waiting 3.0s for "requestAccess" Button to exist
+    t =     4.03s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     4.03s         Checking existence of `"requestAccess" Button`
+    t =     4.09s Tap "requestAccess" Button
+    t =     4.09s     Wait for org.local.PhotoTinder to idle
+    t =     4.09s     Find the "requestAccess" Button
+    t =     4.11s     Check for interrupting elements affecting "requestAccess" Button
+    t =     4.12s     Synthesize event
+    t =     4.41s     Wait for org.local.PhotoTinder to idle
+    t =     4.41s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     5.44s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     5.44s         Checking existence of `"Allow Full Access" Button`
+    t =     5.46s Tap "Allow Full Access" Button
+    t =     5.46s     Wait for com.apple.springboard to idle
+    t =     5.46s     Find the "Allow Full Access" Button
+    t =     5.48s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     5.50s     Synthesize event
+    t =     5.79s     Wait for com.apple.springboard to idle
+    t =     6.01s Tap "shuffle" Button
+    t =     6.01s     Wait for org.local.PhotoTinder to idle
+    t =     6.39s     Find the "shuffle" Button
+    t =     6.45s     Check for interrupting elements affecting "shuffle" Button
+    t =     6.48s     Synthesize event
+    t =     6.77s     Wait for org.local.PhotoTinder to idle
+    t =     7.29s Waiting 15.0s for "keepCard" Button to exist
+    t =     8.32s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =     8.32s         Checking existence of `"keepCard" Button`
+    t =     8.38s Find the "keepCard" Button
+    t =     8.42s Swipe left "mediaCard" Button
+    t =     8.42s     Wait for org.local.PhotoTinder to idle
+    t =     8.42s     Find the "mediaCard" Button
+    t =     8.45s     Check for interrupting elements affecting "mediaCard" Button
+    t =     8.48s     Synthesize event
+    t =     8.88s     Wait for org.local.PhotoTinder to idle
+    t =     8.88s Swipe left "mediaCard" Button
+    t =     8.88s     Wait for org.local.PhotoTinder to idle
+    t =     8.89s     Find the "mediaCard" Button
+    t =     8.96s     Check for interrupting elements affecting "mediaCard" Button
+    t =     9.00s     Synthesize event
+    t =     9.42s     Wait for org.local.PhotoTinder to idle
+    t =     9.42s Swipe left "mediaCard" Button
+    t =     9.42s     Wait for org.local.PhotoTinder to idle
+    t =     9.42s     Find the "mediaCard" Button
+    t =     9.46s     Check for interrupting elements affecting "mediaCard" Button
+    t =     9.50s     Synthesize event
+    t =     9.91s     Wait for org.local.PhotoTinder to idle
+    t =     9.91s Swipe left "mediaCard" Button
+    t =     9.91s     Wait for org.local.PhotoTinder to idle
+    t =     9.91s     Find the "mediaCard" Button
+    t =     9.95s     Check for interrupting elements affecting "mediaCard" Button
+    t =     9.99s     Synthesize event
+    t =    10.40s     Wait for org.local.PhotoTinder to idle
+    t =    10.40s Swipe left "mediaCard" Button
+    t =    10.40s     Wait for org.local.PhotoTinder to idle
+    t =    10.40s     Find the "mediaCard" Button
+    t =    10.44s     Check for interrupting elements affecting "mediaCard" Button
+    t =    10.47s     Synthesize event
+    t =    10.86s     Wait for org.local.PhotoTinder to idle
+    t =    10.87s Find the "sessionProgress" StaticText
+    t =    10.90s Find the "sessionQueue" Button
+    t =    10.94s Tap "undo" Button
+    t =    10.94s     Wait for org.local.PhotoTinder to idle
+    t =    10.94s     Find the "undo" Button
+    t =    10.98s     Check for interrupting elements affecting "undo" Button
+    t =    11.01s     Synthesize event
+    t =    11.30s     Wait for org.local.PhotoTinder to idle
+    t =    12.08s Tap "undo" Button
+    t =    12.08s     Wait for org.local.PhotoTinder to idle
+    t =    12.08s     Find the "undo" Button
+    t =    12.13s     Check for interrupting elements affecting "undo" Button
+    t =    12.17s     Synthesize event
+    t =    12.46s     Wait for org.local.PhotoTinder to idle
+    t =    13.21s Tap "undo" Button
+    t =    13.21s     Wait for org.local.PhotoTinder to idle
+    t =    13.21s     Find the "undo" Button
+    t =    13.26s     Check for interrupting elements affecting "undo" Button
+    t =    13.30s     Synthesize event
+    t =    13.58s     Wait for org.local.PhotoTinder to idle
+    t =    14.36s Tap "undo" Button
+    t =    14.36s     Wait for org.local.PhotoTinder to idle
+    t =    14.36s     Find the "undo" Button
+    t =    14.42s     Check for interrupting elements affecting "undo" Button
+    t =    14.45s     Synthesize event
+    t =    14.74s     Wait for org.local.PhotoTinder to idle
+    t =    15.53s Tap "undo" Button
+    t =    15.53s     Wait for org.local.PhotoTinder to idle
+    t =    15.53s     Find the "undo" Button
+    t =    15.57s     Check for interrupting elements affecting "undo" Button
+    t =    15.61s     Synthesize event
+    t =    15.90s     Wait for org.local.PhotoTinder to idle
+    t =    16.68s Find the "sessionProgress" StaticText
+    t =    16.71s Find the "sessionQueue" Button
+    t =    16.75s Find the Target Application 'org.local.PhotoTinder'
+    t =    16.84s Added attachment named 'rapid-swipes-restored'
+    t =    16.84s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testRapidConsecutiveSwipes]' passed (17.084 seconds).
+Test Suite 'PhotoTinderUITests' passed at 2026-09-14 13:17:28.632.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 53.453 (53.456) seconds
+Test Suite 'PhotoTinderUITests.xctest' passed at 2026-09-14 13:17:28.633.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 53.453 (53.457) seconds
+Test Suite 'Selected tests' passed at 2026-09-14 13:17:28.634.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 53.453 (53.458) seconds
+2026-09-14 13:17:28.926 xcodebuild[45274:3430934] [MT] IDETestOperationsObserverDebug: 54.933 elapsed -- Testing started completed.
+2026-09-14 13:17:28.926 xcodebuild[45274:3430934] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-09-14 13:17:28.926 xcodebuild[45274:3430934] [MT] IDETestOperationsObserverDebug: 54.933 sec, +54.933 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/final-ui-rerun.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+
+Testing started

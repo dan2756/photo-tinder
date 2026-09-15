@@ -1,0 +1,120 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PhotoTinder.xcodeproj -scheme PhotoTinder -destination "platform=iOS Simulator,id=34C20ACC-6657-467B-BAF1-CF34097AE244" -parallel-testing-enabled NO -derivedDataPath build -resultBundlePath evidence/large-dark-final.xcresult test-without-building "-only-testing:PhotoTinderUITests/PhotoTinderUITests/testAppearanceAndLargeText" CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/large-dark-final.xcresult
+
+2026-09-14 13:15:45.108025-0400 PhotoTinderUITests-Runner[45138:3428163] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-09-14 13:15:45.507.
+Test Suite 'PhotoTinderUITests.xctest' started at 2026-09-14 13:15:45.508.
+Test Suite 'PhotoTinderUITests' started at 2026-09-14 13:15:45.508.
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testAppearanceAndLargeText]' started.
+    t =     0.00s Start Test at 2026-09-14 13:15:45.508
+    t =     0.02s Set Up
+    t =     0.02s Open org.local.PhotoTinder
+    t =     0.02s     Launch org.local.PhotoTinder
+2026-09-14 13:15:45.566 xcodebuild[45120:3427841] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-09-14 13:15:45.566 xcodebuild[45120:3427841] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     0.46s         Setting up automation session
+objc[45138]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x1065a0310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x105e0c398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =     1.00s         Wait for org.local.PhotoTinder to idle
+    t =     2.28s Waiting 3.0s for "requestAccess" Button to exist
+    t =     3.32s     Checking `Expect predicate `existsNoRetry == 1` for object "requestAccess" Button`
+    t =     3.32s         Checking existence of `"requestAccess" Button`
+    t =     3.37s Tap "requestAccess" Button
+    t =     3.37s     Wait for org.local.PhotoTinder to idle
+    t =     3.38s     Find the "requestAccess" Button
+    t =     3.39s     Check for interrupting elements affecting "requestAccess" Button
+    t =     3.41s     Synthesize event
+    t =     3.70s     Wait for org.local.PhotoTinder to idle
+    t =     3.70s Waiting 10.0s for "Allow Full Access" Button to exist
+    t =     4.74s     Checking `Expect predicate `existsNoRetry == 1` for object "Allow Full Access" Button`
+    t =     4.74s         Checking existence of `"Allow Full Access" Button`
+    t =     4.78s Tap "Allow Full Access" Button
+    t =     4.78s     Wait for com.apple.springboard to idle
+    t =     4.78s     Find the "Allow Full Access" Button
+    t =     4.80s     Check for interrupting elements affecting "Allow Full Access" Button
+    t =     4.83s     Synthesize event
+    t =     5.12s     Wait for com.apple.springboard to idle
+    t =     5.35s Waiting 15.0s for "shuffle" Button to exist
+    t =     6.38s     Checking `Expect predicate `existsNoRetry == 1` for object "shuffle" Button`
+    t =     6.38s         Checking existence of `"shuffle" Button`
+    t =     6.42s Find the "shuffle" Button
+    t =     6.44s Find the Target Application 'org.local.PhotoTinder'
+    t =     6.51s Added attachment named 'appearance-clean'
+    t =     6.52s Tap "shuffle" Button
+    t =     6.52s     Wait for org.local.PhotoTinder to idle
+    t =     6.52s     Find the "shuffle" Button
+    t =     6.54s     Check for interrupting elements affecting "shuffle" Button
+    t =     6.56s     Synthesize event
+    t =     6.84s     Wait for org.local.PhotoTinder to idle
+    t =     7.50s Waiting 15.0s for "keepCard" Button to exist
+    t =     8.54s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =     8.54s         Checking existence of `"keepCard" Button`
+    t =     8.59s Find the "keepCard" Button
+    t =     8.62s Find the Target Application 'org.local.PhotoTinder'
+    t =     8.72s Added attachment named 'appearance-swipe'
+    t =     8.72s Find the Target Application 'org.local.PhotoTinder'
+    t =     8.82s Find the Target Application 'org.local.PhotoTinder'
+    t =     8.84s Find the "mediaCard" Button
+    t =     8.89s Find the "keepCard" Button
+    t =     8.92s Find the "deleteCard" Button
+    t =     8.94s Find the "skip" Button
+    t =     8.97s Tap "deleteCard" Button
+    t =     8.97s     Wait for org.local.PhotoTinder to idle
+    t =     8.97s     Find the "deleteCard" Button
+    t =     9.00s     Check for interrupting elements affecting "deleteCard" Button
+    t =     9.02s     Synthesize event
+    t =     9.31s     Wait for org.local.PhotoTinder to idle
+    t =     9.55s Waiting 15.0s for "keepCard" Button to exist
+    t =    10.59s     Checking `Expect predicate `existsNoRetry == 1` for object "keepCard" Button`
+    t =    10.59s         Checking existence of `"keepCard" Button`
+    t =    10.63s Find the "keepCard" Button
+    t =    10.66s Tap "closeSession" Button
+    t =    10.66s     Wait for org.local.PhotoTinder to idle
+    t =    10.66s     Find the "closeSession" Button
+    t =    10.69s     Check for interrupting elements affecting "closeSession" Button
+    t =    10.71s     Synthesize event
+    t =    11.00s     Wait for org.local.PhotoTinder to idle
+    t =    11.83s Tap "Review" Button
+    t =    11.83s     Wait for org.local.PhotoTinder to idle
+    t =    11.84s     Find the "Review" Button
+    t =    11.87s     Check for interrupting elements affecting "tray" Button
+    t =    11.89s     Synthesize event
+    t =    12.18s     Wait for org.local.PhotoTinder to idle
+    t =    13.63s Waiting 5.0s for "keepInstead" Button to exist
+    t =    14.67s     Checking `Expect predicate `existsNoRetry == 1` for object "keepInstead" Button`
+    t =    14.67s         Checking existence of `"keepInstead" Button`
+    t =    14.70s Find the "keepInstead" Button
+    t =    14.74s Swipe up Target Application 'org.local.PhotoTinder'
+    t =    14.74s     Wait for org.local.PhotoTinder to idle
+    t =    14.74s     Find the Target Application 'org.local.PhotoTinder'
+    t =    14.75s     Check for interrupting elements affecting "Photo Tinder" Application
+    t =    14.77s     Synthesize event
+    t =    15.19s     Wait for org.local.PhotoTinder to idle
+    t =    16.15s Find the "keepInstead" Button
+    t =    16.21s Find the "keepInstead" Button
+    t =    16.25s Find the Target Application 'org.local.PhotoTinder'
+    t =    16.33s Added attachment named 'appearance-review'
+    t =    16.33s Tear Down
+Test Case '-[PhotoTinderUITests.PhotoTinderUITests testAppearanceAndLargeText]' passed (16.584 seconds).
+Test Suite 'PhotoTinderUITests' passed at 2026-09-14 13:16:02.093.
+	 Executed 1 test, with 0 failures (0 unexpected) in 16.584 (16.586) seconds
+Test Suite 'PhotoTinderUITests.xctest' passed at 2026-09-14 13:16:02.095.
+	 Executed 1 test, with 0 failures (0 unexpected) in 16.584 (16.587) seconds
+Test Suite 'Selected tests' passed at 2026-09-14 13:16:02.096.
+	 Executed 1 test, with 0 failures (0 unexpected) in 16.584 (16.588) seconds
+2026-09-14 13:16:02.409 xcodebuild[45120:3427841] [MT] IDETestOperationsObserverDebug: 18.109 elapsed -- Testing started completed.
+2026-09-14 13:16:02.409 xcodebuild[45120:3427841] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-09-14 13:16:02.409 xcodebuild[45120:3427841] [MT] IDETestOperationsObserverDebug: 18.109 sec, +18.109 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/large-dark-final.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+
+Testing started

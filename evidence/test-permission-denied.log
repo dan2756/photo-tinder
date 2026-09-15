@@ -1,0 +1,658 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PhotoTinder.xcodeproj -scheme PhotoTinder -destination "platform=iOS Simulator,id=34C20ACC-6657-467B-BAF1-CF34097AE244" -derivedDataPath build -resultBundlePath evidence/permission-denied.xcresult "-only-testing:PhotoTinderUITests/PhotoTinderUITests/testPermissionDenied" test CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/permission-denied.xcresult
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (3 targets)
+    Target 'PhotoTinderUITests' in project 'PhotoTinder'
+        ➜ Explicit dependency on target 'PhotoTinder' in project 'PhotoTinder'
+    Target 'PhotoTinderTests' in project 'PhotoTinder'
+        ➜ Explicit dependency on target 'PhotoTinder' in project 'PhotoTinder'
+    Target 'PhotoTinder' in project 'PhotoTinder' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 2cdaa6dae35d0f669946ec00264fc1ab
+Build description path: /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/XCBuildData/2cdaa6dae35d0f669946ec00264fc1ab.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache
+    cd /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -o /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache
+
+MkDir /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /bin/mkdir -p /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks
+
+MkDir /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /bin/mkdir -p /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns
+
+MkDir /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /bin/mkdir -p /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PlugIns/PhotoTinderTests.xctest
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests.hmap (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-all-non-framework-target-headers.hmap (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/ProductTypeInfoPlistAdditions.plist (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/ProductTypeInfoPlistAdditions.plist
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests.hmap (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/empty-PhotoTinderTests.plist (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/empty-PhotoTinderTests.plist
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests.DependencyMetadataFileList (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-project-headers.hmap (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-project-headers.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests.DependencyStaticMetadataFileList (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-own-target-headers.hmap (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-generated-files.hmap (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-generated-files.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-target-headers.hmap (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/empty-PhotoTinderUITests.plist (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/empty-PhotoTinderUITests.plist
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests_const_extract_protocols.json (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-non-framework-target-headers.hmap (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.SwiftFileList (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.SwiftFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests_const_extract_protocols.json (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.SwiftConstValuesFileList (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.LinkFileList (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.LinkFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-OutputFileMap.json (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.SwiftFileList (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.SwiftFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests_const_extract_protocols.json (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.SwiftConstValuesFileList (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.LinkFileList (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.LinkFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-OutputFileMap.json (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests.DependencyStaticMetadataFileList (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests.DependencyMetadataFileList (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-project-headers.hmap (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-project-headers.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-own-target-headers.hmap (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-generated-files.hmap (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-generated-files.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-all-target-headers.hmap (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.SwiftFileList (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.SwiftFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.SwiftConstValuesFileList (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.LinkFileList (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.LinkFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests-OutputFileMap.json (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests_const_extract_protocols.json (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.SwiftFileList (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.SwiftFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.SwiftConstValuesFileList (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.LinkFileList (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.LinkFileList
+
+WriteAuxiliaryFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests-OutputFileMap.json (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    write-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests-OutputFileMap.json
+
+MkDir /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    /bin/mkdir -p /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinderUITests-Runner.app/PlugIns/PhotoTinderUITests.xctest
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks/libXCTestSwiftSupport.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks
+warning: not stripping binary because it is signed: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib (in target 'PhotoTinder' from project 'PhotoTinder')
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks/libXCTestBundleInject.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks
+warning: not stripping binary because it is signed: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib (in target 'PhotoTinder' from project 'PhotoTinder')
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks/XCUnit.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks
+warning: not stripping binary because it is signed: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework/XCUnit (in target 'PhotoTinder' from project 'PhotoTinder')
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks/XCUIAutomation.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks
+warning: not stripping binary because it is signed: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework/XCUIAutomation (in target 'PhotoTinder' from project 'PhotoTinder')
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks/XCTestSupport.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks
+warning: not stripping binary because it is signed: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework/XCTestSupport (in target 'PhotoTinder' from project 'PhotoTinder')
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks/XCTestCore.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks
+warning: not stripping binary because it is signed: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework/XCTestCore (in target 'PhotoTinder' from project 'PhotoTinder')
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks/XCTest.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks
+warning: not stripping binary because it is signed: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest (in target 'PhotoTinder' from project 'PhotoTinder')
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks/XCTAutomationSupport.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks
+warning: not stripping binary because it is signed: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework/XCTAutomationSupport (in target 'PhotoTinder' from project 'PhotoTinder')
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks/Testing.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Frameworks
+warning: not stripping binary because it is signed: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework/Testing (in target 'PhotoTinder' from project 'PhotoTinder')
+
+ProcessInfoPlistFile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Info.plist /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/empty-PhotoTinder.plist (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-infoPlistUtility /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/empty-PhotoTinder.plist -producttype com.apple.product-type.application -genpkginfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/assetcatalog_generated_info.plist -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.app/Info.plist
+
+SwiftDriver PhotoTinder normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinder -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver PhotoTinder normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinder -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ PhotoTinder (in target 'PhotoTinder' from project 'PhotoTinder')
+
+EmitSwiftModule normal x86_64 (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ MediaLoader.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Library/MediaLoader.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Library/MediaLoader.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ MediaItem.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/MediaItem.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/MediaItem.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ MediaItem.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/MediaItem.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/MediaItem.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ PhotoTinder (in target 'PhotoTinder' from project 'PhotoTinder')
+
+EmitSwiftModule normal arm64 (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ PhotoLibrary.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Library/PhotoLibrary.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Library/PhotoLibrary.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ ReviewStore.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/ReviewStore.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/ReviewStore.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ ReviewState.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/ReviewState.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/ReviewState.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ ReviewState.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/ReviewState.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/ReviewState.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ MediaLoader.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Library/MediaLoader.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Library/MediaLoader.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ ReviewStore.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/ReviewStore.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Core/ReviewStore.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ PhotoLibrary.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Library/PhotoLibrary.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Library/PhotoLibrary.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling ReviewStore.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling ReviewStore.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling MediaItem.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal arm64 Compiling MediaItem.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling ReviewState.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ReviewState.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for PhotoTinder (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriver\ Compilation\ Requirements PhotoTinder normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinder -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for PhotoTinder (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriver\ Compilation\ Requirements PhotoTinder normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinder -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/PhotoTinder-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftmodule (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftmodule /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.abi.json (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.abi.json (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.abi.json /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftmodule (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftmodule /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftsourceinfo (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/x86_64/PhotoTinder.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+Copy /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftsourceinfo (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinder.build/Objects-normal/arm64/PhotoTinder.swiftsourceinfo /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/PhotoTinder.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftDriver PhotoTinderUITests normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinderUITests -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -parse-as-library -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/x86_64/PhotoTinderUITests-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver PhotoTinderUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinderUITests -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -parse-as-library -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/PhotoTinderUITests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderUITests.build/Objects-normal/arm64/PhotoTinderUITests-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver PhotoTinderTests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinderTests -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.SwiftFileList -DDEBUG -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver PhotoTinderTests normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PhotoTinderTests -Onone @/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.SwiftFileList -DDEBUG -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/djoshea/Desktop/projects/photo-tinder/build/Index.noindex/DataStore -swift-version 6 -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -sdk-module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests-Swift.h -working-directory /Users/djoshea/Desktop/projects/photo-tinder -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling PhotoLibrary.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling MediaLoader.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal arm64 Compiling MediaLoader.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 Compiling\ ReviewView.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/ReviewView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/ReviewView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ RootView.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ AppModel.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/App/AppModel.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/App/AppModel.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ MediaViews.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/MediaViews.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/MediaViews.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ SettingsView.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/SettingsView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/SettingsView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ SwipeView.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/SwipeView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/SwipeView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling PhotoLibrary.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 Compiling\ ReviewView.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/ReviewView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/ReviewView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ SettingsView.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/SettingsView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/SettingsView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ RootView.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ MediaViews.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/MediaViews.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/MediaViews.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ SwipeView.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/SwipeView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/Views/SwipeView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ AppModel.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/App/AppModel.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinder/App/AppModel.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftExplicitDependencyCompileModuleFromInterface x86_64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/Testing-2SPBZDW0ZA1VK.swiftmodule
+
+SwiftDriverJobDiscovery normal x86_64 Compiling SettingsView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/Testing-2C5A3J88O6M7H.swiftmodule
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppModel.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal arm64 Compiling SettingsView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling AppModel.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-DYQZAVN6ZU771FWTW7SYFZIPQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-22Q4QJ0P4P140LE5YG9FZIPVE.pcm
+
+SwiftDriverJobDiscovery normal x86_64 Compiling MediaViews.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal arm64 Compiling MediaViews.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-C4VCVCTNUO4Y5CH6176CZJ18.pcm
+
+SwiftExplicitDependencyCompileModuleFromInterface x86_64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-1GSZVDJT6TBBJ.swiftmodule
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-AIGOEN53TKV6H0Q6B1XQFS1AR.pcm
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-2P381TX1P2Z0S.swiftmodule
+
+SwiftExplicitDependencyCompileModuleFromInterface x86_64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/_Testing_CoreGraphics-2AYOGNPVNJWA9.swiftmodule
+
+SwiftExplicitDependencyCompileModuleFromInterface x86_64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/_Testing_Foundation-1B51G9WIRRLM0.swiftmodule
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/_Testing_Foundation-THW6D0GR0H34.swiftmodule
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/_Testing_CoreGraphics-2VNUF6X67BZTH.swiftmodule
+
+SwiftExplicitDependencyCompileModuleFromInterface x86_64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-2UXEODEIOB0JK.swiftmodule
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-278MDAVOEB5ZP.swiftmodule
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ PhotoTinderTests (in target 'PhotoTinderTests' from project 'PhotoTinder')
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaCategoryTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaLoaderTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStateTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStoreTests.swift -target x86_64-apple-ios26.0-simulator -disable-cross-import-overlay-search -swift-module-cross-import Testing /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework/Modules/Testing.swiftcrossimport/CoreGraphics.swiftoverlay -swift-module-cross-import Testing /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework/Modules/Testing.swiftcrossimport/CoreImage.swiftoverlay -swift-module-cross-import Testing /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework/Modules/Testing.swiftcrossimport/Foundation.swiftoverlay -swift-module-cross-import Testing /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework/Modules/Testing.swiftcrossimport/UIKit.swiftoverlay -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libPreviewsMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#PreviewsMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftUIMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing/libTestingMacros.dylib\#\#TestingMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libTipKitMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#TipKitMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests-dependencies-1.json -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -swift-version 6 -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/djoshea/Desktop/projects/photo-tinder -enable-anonymous-context-mangled-names -file-compilation-dir /Users/djoshea/Desktop/projects/photo-tinder -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources-normal/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources/x86_64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources -no-auto-bridging-header-chaining -module-name PhotoTinderTests -frontend-parseable-output -disable-clang-spi -clang-target x86_64-apple-ios26.5-simulator -target-sdk-version 26.5 -target-sdk-name iphonesimulator26.5 -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -emit-module-doc-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.swiftdoc -emit-module-source-info-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.swiftsourceinfo -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests-Swift.h -serialize-diagnostics-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests-primary-emit-module.dia -emit-dependencies-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests-primary-emit-module.d -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.swiftmodule -emit-abi-descriptor-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/x86_64/PhotoTinderTests.abi.json
+
+EmitSwiftModule normal x86_64 (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaLoaderTests.swift:22:24: error: ambiguous use of 'infinity'
+        CGSize(width: .infinity, height: .nan),
+                       ^
+CoreFoundation.CGFloat.infinity:2:19: note: found this candidate in module 'CoreFoundation'
+public static var infinity: CGFloat { get }}
+                  ^
+Swift.Double.infinity:2:30: note: found this candidate in module 'Swift'
+@inlinable public static var infinity: Double { get }}
+                             ^
+
+SwiftCompile normal x86_64 Compiling\ MediaCategoryTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaCategoryTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaCategoryTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ MediaLoaderTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaLoaderTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaLoaderTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ ReviewStoreTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStoreTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStoreTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ ReviewStateTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStateTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStateTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ PhotoTinderTests (in target 'PhotoTinderTests' from project 'PhotoTinder')
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaCategoryTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaLoaderTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStateTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStoreTests.swift -target arm64-apple-ios26.0-simulator -disable-cross-import-overlay-search -swift-module-cross-import Testing /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework/Modules/Testing.swiftcrossimport/CoreGraphics.swiftoverlay -swift-module-cross-import Testing /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework/Modules/Testing.swiftcrossimport/CoreImage.swiftoverlay -swift-module-cross-import Testing /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework/Modules/Testing.swiftcrossimport/Foundation.swiftoverlay -swift-module-cross-import Testing /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework/Modules/Testing.swiftcrossimport/UIKit.swiftoverlay -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libPreviewsMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#PreviewsMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftUIMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing/libTestingMacros.dylib\#\#TestingMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libTipKitMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#TipKitMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests-dependencies-2.json -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -I /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -swift-version 6 -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/djoshea/Desktop/projects/photo-tinder/build/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/djoshea/Desktop/projects/photo-tinder -enable-anonymous-context-mangled-names -file-compilation-dir /Users/djoshea/Desktop/projects/photo-tinder -Xcc -ivfsstatcache -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-generated-files.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-own-target-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/PhotoTinderTests-project-headers.hmap -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources-normal/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources/arm64 -Xcc -I/Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/DerivedSources -no-auto-bridging-header-chaining -module-name PhotoTinderTests -frontend-parseable-output -disable-clang-spi -clang-target arm64-apple-ios26.5-simulator -target-sdk-version 26.5 -target-sdk-name iphonesimulator26.5 -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -emit-module-doc-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.swiftdoc -emit-module-source-info-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.swiftsourceinfo -emit-objc-header-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests-Swift.h -serialize-diagnostics-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests-primary-emit-module.dia -emit-dependencies-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests-primary-emit-module.d -o /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.swiftmodule -emit-abi-descriptor-path /Users/djoshea/Desktop/projects/photo-tinder/build/Build/Intermediates.noindex/PhotoTinder.build/Debug-iphonesimulator/PhotoTinderTests.build/Objects-normal/arm64/PhotoTinderTests.abi.json
+
+EmitSwiftModule normal arm64 (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+/Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaLoaderTests.swift:22:24: error: ambiguous use of 'infinity'
+        CGSize(width: .infinity, height: .nan),
+                       ^
+CoreFoundation.CGFloat.infinity:2:19: note: found this candidate in module 'CoreFoundation'
+public static var infinity: CGFloat { get }}
+                  ^
+Swift.Double.infinity:2:30: note: found this candidate in module 'Swift'
+@inlinable public static var infinity: Double { get }}
+                             ^
+
+SwiftCompile normal arm64 Compiling\ ReviewStateTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStateTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStateTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ MediaCategoryTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaCategoryTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaCategoryTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ MediaLoaderTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaLoaderTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/MediaLoaderTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ ReviewStoreTests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStoreTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderTests/ReviewStoreTests.swift (in target 'PhotoTinderTests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftDriverJobDiscovery normal arm64 Compiling RootView.swift (in target 'PhotoTinder' from project 'PhotoTinder')
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ PhotoTinderUITests (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal x86_64 Compiling\ PhotoTinderUITests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+
+SwiftCompile normal x86_64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ PhotoTinderUITests (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+SwiftCompile normal arm64 Compiling\ PhotoTinderUITests.swift /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+
+SwiftCompile normal arm64 /Users/djoshea/Desktop/projects/photo-tinder/PhotoTinderUITests/PhotoTinderUITests.swift (in target 'PhotoTinderUITests' from project 'PhotoTinder')
+    cd /Users/djoshea/Desktop/projects/photo-tinder
+    
+
+
+Test session results, code coverage, and logs:
+	/Users/djoshea/Desktop/projects/photo-tinder/evidence/permission-denied.xcresult
+
+Testing failed:
+	Ambiguous use of 'infinity'
+	Testing cancelled because the build failed.
+
+** TEST FAILED **
+
+
+The following build commands failed:
+	SwiftEmitModule normal x86_64 Emitting\ module\ for\ PhotoTinderTests (in target 'PhotoTinderTests' from project 'PhotoTinder')
+	EmitSwiftModule normal x86_64 (in target 'PhotoTinderTests' from project 'PhotoTinder')
+	SwiftEmitModule normal arm64 Emitting\ module\ for\ PhotoTinderTests (in target 'PhotoTinderTests' from project 'PhotoTinder')
+	EmitSwiftModule normal arm64 (in target 'PhotoTinderTests' from project 'PhotoTinder')
+	Testing project PhotoTinder with scheme PhotoTinder
+(5 failures)
